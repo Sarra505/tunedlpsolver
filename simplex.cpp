@@ -6,6 +6,14 @@
 #include <string>
 #include <fstream>
 #include <algorithm>
+#include <cassert>
+// zero tolerances
+static const double epsilon1 = 0.00001;
+static const double epsilon2 = 0.00000001; // TODO: find a way to filter out nan and -inf
+// In IEEE 754, the most common binary representation of floating-point numbers, 
+//the positive infinity is the value with all bits of the exponent set and all bits of the fraction cleared. 
+//he NaN in C++ can occur in the given three conditions which are when the log of a negative number or 
+//zero is taken when we divide a number by zero, and the square root of the negative number.
 using namespace std;
 
 struct lpProblemData
@@ -20,7 +28,7 @@ class Simplex
 private:
     int rows, cols;
     // stores coefficients of all the variables
-    std::vector<std::vector<double>> A;
+    std::vector<std::vector<double>> A;  //TODO: change A to compact sparse representation
     // stores constants of constraints
     std::vector<double> B;
     // stores the coefficients of the objective function
@@ -29,6 +37,7 @@ private:
     double maximum;
 
     bool isUnbounded;
+    bool degeneracy;
 
 public:
     Simplex(std::vector<std::vector<double>> matrix, std::vector<double> b, std::vector<double> c)
@@ -42,7 +51,7 @@ public:
         C.resize(c.size());
 
         for (int i = 0; i < rows; i++)
-        { // pass A[][] values to the metrix
+        { // pass A[][] values to the matrix
             for (int j = 0; j < cols; j++)
             {
                 A[i][j] = matrix[i][j];
@@ -82,37 +91,50 @@ public:
         // form the next table according to the pivot value
         doPivotting(pivotRow, pivotColumn);
 
+        if(degeneracy == true){
+            cout << "Degeneracy occured" << endl;
+            return true;
+        }
+
         return false;
     }
 
     bool checkOptimality()
     {
         // if the table has further negative constraints,then it is not optimal
-        bool isOptimal = false;
-        int positveValueCount = 0;
-
+        bool isOptimal = true;
         // check if the coefficients of the objective function are negative
         for (int i = 0; i < C.size(); i++)
         {
             double value = C[i];
-            if (value >= 0)
+            if (value < epsilon2)
             {
-                positveValueCount++;
+                isOptimal = false;
+                break;
             }
         }
         // if all the constraints are positive now,the table is optimal
-        if (positveValueCount == C.size())
-        {
-            isOptimal = true;
-            print();
-        }
+        print();
         return isOptimal;
     }
-
+    //TODO: refactor after changing matrix A representation
     void doPivotting(int pivotRow, int pivotColumn)
     {
 
         double pivotValue = A[pivotRow][pivotColumn]; // gets the pivot value
+        if(pivotValue == 0) {
+            degeneracy = true;
+            return;
+            
+        }
+        /*Yes, a row with ratio 0 would be the pivot row. A zero ratio signals a condition called degeneracy. G
+        In geometric terms, there are more constraints binding at the current vertex of the feasible region than the number needed to define a point. 
+        (You need one binding constraint for each decision variable, excluding slack and surplus variables.)
+        When the simplex method arrives at a degenerate corner, cycling can occur. There are a variety of adjustments you 
+        can make to the basic simplex algorithm to avoid being stuck in a cycle. See the relevant Wikipedia page for a brief discussion.*/
+
+
+
 
         double pivotRowVals[cols]; // the column with the pivot
 
@@ -224,7 +246,7 @@ public:
 
         for (int i = 0; i < rows; i++)
         {
-            if (A[i][pivotColumn] > 0)
+            if (A[i][pivotColumn] > epsilon2)
             {
                 positiveValues[i] = A[i][pivotColumn];
             }
@@ -244,7 +266,7 @@ public:
             for (int i = 0; i < rows; i++)
             {
                 double value = positiveValues[i];
-                if (value > 0)
+                if (value > epsilon2)
                 {
                     result[i] = B[i] / value;
                 }
@@ -259,7 +281,7 @@ public:
         int location = 0;
         for (int i = 0; i < sizeof(result) / sizeof(result[0]); i++)
         {
-            if (result[i] > 0)
+            if (result[i] > epsilon2)
             {
                 if (result[i] < minimum)
                 {
@@ -273,6 +295,28 @@ public:
         return location;
     }
 
+    void DisplaySimplex()
+    {
+        // Display the coefficient matrix
+        for (const auto &ruleEntries : A)
+        {
+            for (const auto &coefficient : ruleEntries)
+            {
+                std::cout << coefficient << " ";
+            }
+            std::cout << std::endl;
+        }
+        for (const auto &element : B)
+        {
+            std::cout << element << " ";
+        }
+        std::cout << std::endl;
+        for (const auto &element : C)
+        {
+            std::cout << element << " ";
+        }
+        std::cout << std::endl;
+    }
     void CalculateSimplex()
     {
         bool end = false;
@@ -287,12 +331,10 @@ public:
         {
 
             bool result = simplexAlgorithmCalculation();
+            DisplaySimplex();
+            cout << " " << endl;
 
-            if (result == true)
-            {
-
-                end = true;
-            }
+            end = result;
         }
         cout << "Answers for the Constraints of variables" << endl;
 
@@ -421,29 +463,11 @@ int main()
     std::string line;
     getline(input, line);
     myData = parseLPProblem(line);
-    // Display the coefficient matrix
-    for (const auto &ruleEntries : myData.A)
-    {
-        for (const auto &coefficient : ruleEntries)
-        {
-            std::cout << coefficient << " ";
-        }
-        std::cout << std::endl;
-    }
-    for (const auto &element : myData.B)
-    {
-        std::cout << element << " ";
-    }
-    std::cout << std::endl;
-    for (const auto &element : myData.C)
-    {
-        std::cout << element << " ";
-    }
-    std::cout << std::endl;
 
     // hear the make the class parameters with A[m][n] vector b[] vector and c[] vector
-    // Simplex simplex(myData.A,myData.B,myData.C);
-    // simplex.CalculateSimplex();
+    Simplex simplex(myData.A, myData.B, myData.C);
+
+    simplex.CalculateSimplex();
 
     return 0;
 }
