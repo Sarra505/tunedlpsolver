@@ -103,18 +103,17 @@ public:
     {
         // if the table has further negative constraints,then it is not optimal
         bool isOptimal = true;
-        // check if the coefficients of the objective function are negative
+        // as long as we still have negative coefficients, the optimum is not found
         for (int i = 0; i < C.size(); i++)
         {
             double value = C[i];
-            if (value < epsilon2)
+            if (value < 0)
             {
                 isOptimal = false;
                 break;
             }
         }
         // if all the constraints are positive now,the table is optimal
-        print();
         return isOptimal;
     }
     //TODO: refactor after changing matrix A representation
@@ -203,20 +202,6 @@ public:
         }
     }
 
-    // print the current A array
-    void print()
-    {
-        for (int i = 0; i < rows; i++)
-        {
-            for (int j = 0; j < cols; j++)
-            {
-                cout << A[i][j] << " ";
-            }
-            cout << "" << endl;
-        }
-        cout << "" << endl;
-    }
-
     // find the least coefficients of constraints in the objective function's position
     int findPivotColumn()
     {
@@ -236,63 +221,34 @@ public:
         return location;
     }
 
-    // find the row with the pivot value.The least value item's row in the B array
+    // find the row with the pivot value. conduct a ratio test only on strictly positive items
     int findPivotRow(int pivotColumn)
     {
-        double positiveValues[rows];
-        std::vector<double> result(rows, 0);
-        // double result[rows];
-        int negativeValueCount = 0;
+        double min = 99999999;
+        double value;
+        int pivotRow = 0;
+        int nonpositiveCount = 0;
 
         for (int i = 0; i < rows; i++)
         {
-            if (A[i][pivotColumn] > epsilon2)
+            value = A[i][pivotColumn];
+            
+
+            if (value > 0 && (value / B[i]) < min)
             {
-                positiveValues[i] = A[i][pivotColumn];
+                min = (value / B[i]);
+                pivotRow = i;
             }
-            else
+            else if (value <= 0)
             {
-                positiveValues[i] = 0;
-                negativeValueCount += 1;
+                nonpositiveCount++;
             }
         }
-        // checking the unbound condition if all the values are negative ones
-        if (negativeValueCount == rows)
+        if (nonpositiveCount == rows)
         {
             isUnbounded = true;
-        }
-        else
-        {
-            for (int i = 0; i < rows; i++)
-            {
-                double value = positiveValues[i];
-                if (value > epsilon2)
-                {
-                    result[i] = B[i] / value;
-                }
-                else
-                {
-                    result[i] = 0;
-                }
-            }
-        }
-        // find the minimum's location of the smallest item of the B array
-        double minimum = 99999999;
-        int location = 0;
-        for (int i = 0; i < sizeof(result) / sizeof(result[0]); i++)
-        {
-            if (result[i] > epsilon2)
-            {
-                if (result[i] < minimum)
-                {
-                    minimum = result[i];
-
-                    location = i;
-                }
-            }
-        }
-
-        return location;
+        } 
+        return pivotRow;
     }
 
     void DisplaySimplex()
@@ -306,23 +262,27 @@ public:
             }
             std::cout << std::endl;
         }
+        std::cout << std::endl;
         for (const auto &element : B)
         {
             std::cout << element << " ";
         }
+        std::cout << std::endl;
         std::cout << std::endl;
         for (const auto &element : C)
         {
             std::cout << element << " ";
         }
         std::cout << std::endl;
+        std::cout << std::endl;   
+
     }
     void CalculateSimplex()
     {
         bool end = false;
 
         cout << "initial array(Not optimal)" << endl;
-        print();
+        DisplaySimplex();
 
         cout << " " << endl;
         cout << "final array(Optimal solution)" << endl;
