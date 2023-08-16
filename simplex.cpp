@@ -101,7 +101,6 @@ public:
 
     bool checkOptimality()
     {
-        // if the table has further negative constraints,then it is not optimal
         bool isOptimal = true;
         // as long as we still have negative coefficients, the optimum is not found
         for (int i = 0; i < C.size(); i++)
@@ -171,8 +170,6 @@ public:
                 {
                     double multiplyValue = pivotColVals[m];
                     A[m][p] = A[m][p] - (multiplyValue * rowNew[p]);
-                    // C[p] = C[p] - (multiplyValue*C[pivotRow]);
-                    // B[i] = B[i] - (multiplyValue*B[pivotRow]);
                 }
             }
         }
