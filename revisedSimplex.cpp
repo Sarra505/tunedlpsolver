@@ -48,8 +48,8 @@ public:
    /// The number of rules
    unsigned m = 0;
    float solveSimplex(unsigned n, unsigned stepLimit = ~0u);
-   vector<float> solveEtaFTRAN(eta matrix, vector<float> b);
-   vector<float> solveEtaBTRAN(eta matrix, vector<float> b);
+   void solveEtaFTRAN(eta matrix, vector<float> b);
+   void solveEtaBTRAN(eta matrix, vector<float> b);
 };
 struct eta
 {
@@ -87,7 +87,7 @@ void factorizeLU()
 }
 
 // function to solve Ex = b with E being an eta matrix
-vector<float> LPSolver::solveEtaFTRAN(eta matrix, vector<float> b)
+void LPSolver::solveEtaFTRAN(eta matrix, vector<float> b)
 {
    size_t pivot = matrix.col;
    b[pivot] = b[pivot] / matrix.values[pivot];
@@ -101,10 +101,10 @@ vector<float> LPSolver::solveEtaFTRAN(eta matrix, vector<float> b)
    }
 }
 // function to solve xE = b with E being an eta matrix
-vector<float> LPSolver::solveEtaBTRAN(eta pivotMatrix, vector<float> b)
+void LPSolver::solveEtaBTRAN(eta pivotMatrix, vector<float> b)
 {
    size_t colToChange = pivotMatrix.col;
-   double bp = b[colToChange];
+   float bp = b[colToChange];
 
    for (size_t i = 0; i < m; ++i)
    {
@@ -114,6 +114,6 @@ vector<float> LPSolver::solveEtaBTRAN(eta pivotMatrix, vector<float> b)
       }
    }
 
-   double bNew = bp / pivotMatrix.values[colToChange];
+   float bNew = bp / pivotMatrix.values[colToChange];
    b[colToChange] = bNew;
 }
