@@ -9,6 +9,15 @@
 #include <fstream>
 #include <sstream>
 
+struct Entry
+{
+   /// The coefficient
+   float coef;
+   /// The corresponding rule/row
+   unsigned rule;
+   /// The corresponding variable/column
+   unsigned variable;
+};
 class LPSolver
 {
 public:
@@ -19,13 +28,14 @@ public:
       size_t label;
       float value;
    };
+
    // a structure that represents an eta matrix
    // containing the column that's different from an identity matrix (ranges from 1 to m - 1)
    // and the values in that column
    struct eta
    {
       size_t col;
-      vector<float> values;
+      std::vector<float> values;
    };
    // The sparse coefficient matrix M
    std::vector<Entry> matrix;
@@ -36,32 +46,20 @@ public:
    // indices and current values of basic variables
    std::vector<variable> basic;
 
-   LPSolver(std::vector<Entry> coefMatrix, unsigned numRules){
+   LPSolver(std::vector<Entry> coefMatrix, unsigned numRules)
+   {
       matrix = coefMatrix;
       m = numRules;
    }
 
    float solveSimplex(unsigned n, unsigned stepLimit = ~0u);
-   void solveEtaFTRAN(eta matrix, vector<float> *b);
-   void solveEtaBTRAN(eta matrix, vector<float> *b);
+   void solveEtaFTRAN(eta matrix, std::vector<float> *b);
+   void solveEtaBTRAN(eta matrix, std::vector<float> *b);
    std::vector<Entry> getAllRow(unsigned int label);
    std::vector<Entry> getAllColumn(unsigned int label);
 };
 /// An entry in the sparse coefficient matrix
-struct Entry
-{
-   /// The coefficient
-   float coef;
-   /// The corresponding rule/row
-   unsigned rule;
-   /// The corresponding variable/column
-   unsigned variable;
-};
-struct eta
-{
-   size_t col;
-   vector<double> values;
-};
+
 using namespace std;
 float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
 // Solve the given LP using simplex
@@ -71,7 +69,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
    if (m == 0)
       return numeric_limits<float>::infinity();
 
-   // add slack variables to matrix 
+   // add slack variables to matrix
    Entry entry;
 
    for (size_t i = 0; i < m; i++)
@@ -79,8 +77,8 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       entry.coef = 1.0f;
       entry.rule = i;
       entry.variable = n + i;
-      matrix.push_back(entry)
-   };
+      matrix.push_back(entry);
+   }
    // initialise c vector which is (1,1,...,1,0,...,0)
    float objFuncCoeff[n + m];
    size_t i;
@@ -92,7 +90,8 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
    {
       objFuncCoeff[i] = 0.0f;
    }
-   float objFuncCoeff[n + m];
+   nonBasic.resize(n);
+   basic.resize(m);
 
    // Initialize the nonbasic variables' labels to be 0 through (n - 1)
    for (size_t i = 0; i < n; ++i)
@@ -100,7 +99,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       nonBasic[i] = i;
    }
    // Initialize the basic variables to be n through m and their values to be the right-hand-side vector b which is 1
-   for (size_t i = 0; i < n; ++i)
+   for (size_t i = n; i < m; ++i)
    {
       basic[i].label = i;
       basic[i].value = 1.0f;
@@ -141,7 +140,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
 
       float r;
       unsigned int nonBasicColumnIndex;
-      unsigned int enteringIndex = -1;
+      unsigned int enteringLabel = -1;
       vector<Entry> nonBasicColumn;
       for (size_t i = 0; i < n; i++)
       {
@@ -154,12 +153,12 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
          }
          if (r > 0)
          {
-            enteringIndex = nonBasicColumnIndex;
+            enteringLabel = nonBasicColumnIndex;
             break;
          }
       }
       // if no entering index has been selected, no cadidates for entering variables, the optimal is reached
-      if (enteringIndex == -1)
+      if (enteringLabel == -1)
       {
          printf("\nNo entering var. Optimal value of %5.3f has been reached.\n", z);
          foundSolution = true;
@@ -230,7 +229,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       // set entering variable at t
       // other basic variables = x*_B - td
       // replace leaving column of B by the entering column , or add d as an eta matrix
-      variable enteringVar = {enteringIndex, smallest_t};
+      variable enteringVar = {enteringLabel, smallest_t};
       basic[leavingRow] = enteringVar;
 
       for (size_t row = 0; row < sizeof(basic) / sizeof(basic[0]); ++row)
@@ -245,8 +244,8 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       eta pivot = {leavingRow, d};
       pivots.push_back(pivot);
 
-      nonBasic[enteringIndex] = leavingLabel;
-      double increasedValue = objFuncCoeff[enteringIndex] * smallest_t;
+      nonBasic[enteringLabel] = leavingLabel;
+      double increasedValue = objFuncCoeff[enteringLabel] * smallest_t;
 
       double originalZ = z;
 
@@ -317,12 +316,12 @@ std::vector<Entry> LPSolver::getAllColumn(unsigned int column)
    }
    return result;
 }
-bool CompareMaxColumn(const Entry& _a, const Entry& _b)
+bool CompareMaxColumn(const Entry &_a, const Entry &_b)
 {
-    return _a.variable < _b.variable;
+   return _a.variable < _b.variable;
 }
 
-std::tuple<std::vector<Entry>,unsigned, unsigned> parseLPProblem(const std::string &lpString)
+std::tuple<std::vector<Entry>, unsigned, unsigned> parseLPProblem(const std::string &lpString)
 {
    std::vector<Entry> coefficientMatrix;
 
@@ -367,7 +366,6 @@ std::tuple<std::vector<Entry>,unsigned, unsigned> parseLPProblem(const std::stri
    }
    auto numVariables = *max_element(coefficientMatrix.begin(), coefficientMatrix.end(), CompareMaxColumn);
 
-
    return std::make_tuple(coefficientMatrix, numRules, numVariables.variable + 1);
 }
 
@@ -382,8 +380,7 @@ int main()
 
    std::string line;
    getline(input, line);
-   std::tuple<std::vector<Entry>,unsigned, unsigned> myData = parseLPProblem(line);
-
+   std::tuple<std::vector<Entry>, unsigned, unsigned> myData = parseLPProblem(line);
 
    LPSolver simplex(get<0>(myData), get<1>(myData));
 
