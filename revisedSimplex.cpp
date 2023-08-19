@@ -5,6 +5,9 @@
 #include <span>
 #include <string>
 #include <vector>
+#include <iostream>
+#include <fstream>
+#include <sstream>
 
 class LPSolver
 {
@@ -32,6 +35,11 @@ public:
    std::vector<unsigned> nonBasic;
    // indices and current values of basic variables
    std::vector<variable> basic;
+
+   LPSolver(std::vector<Entry> coefMatrix, unsigned numRules){
+      matrix = coefMatrix;
+      m = numRules;
+   }
 
    float solveSimplex(unsigned n, unsigned stepLimit = ~0u);
    void solveEtaFTRAN(eta matrix, vector<float> *b);
@@ -62,6 +70,17 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       return 0.0;
    if (m == 0)
       return numeric_limits<float>::infinity();
+
+   // add slack variables to matrix 
+   Entry entry;
+
+   for (size_t i = 0; i < m; i++)
+   {
+      entry.coef = 1.0f;
+      entry.rule = i;
+      entry.variable = n + i;
+      matrix.push_back(entry)
+   };
    // initialise c vector which is (1,1,...,1,0,...,0)
    float objFuncCoeff[n + m];
    size_t i;
@@ -225,12 +244,12 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       // push a new eta matrix onto the vector
       eta pivot = {leavingRow, d};
       pivots.push_back(pivot);
-      
+
       nonBasic[enteringIndex] = leavingLabel;
       double increasedValue = objFuncCoeff[enteringIndex] * smallest_t;
-                
+
       double originalZ = z;
-        
+
       z += increasedValue;
    }
 
@@ -297,4 +316,78 @@ std::vector<Entry> LPSolver::getAllColumn(unsigned int column)
       }
    }
    return result;
+}
+bool CompareMaxColumn(const Entry& _a, const Entry& _b)
+{
+    return _a.variable < _b.variable;
+}
+
+std::tuple<std::vector<Entry>,unsigned, unsigned> parseLPProblem(const std::string &lpString)
+{
+   std::vector<Entry> coefficientMatrix;
+
+   // columns = number of structural variables + number of slack variables
+   // number of structural variables = maximu column index + 1
+   // number of slack variables = number of rules
+   // rows = number of rules + 1
+   // number of structural variables = max column index + 1
+   std::istringstream iss(lpString);
+
+   int numRules;
+   iss >> numRules;
+
+   Entry entry;
+
+   // initialize A
+   for (int i = 0; i < numRules; i++)
+   {
+      int numEntries;
+      iss >> numEntries;
+
+      for (int j = 0; j < numEntries; j++)
+      {
+         int columnNumber;
+         float coefficient;
+
+         // Read the column number and coefficient as strings
+         std::string columnNumberStr, coefficientStr;
+         iss >> columnNumberStr >> coefficientStr;
+
+         // Convert the strings to the respective types
+         columnNumber = std::stoi(columnNumberStr);
+         coefficient = std::stof(coefficientStr);
+
+         entry.coef = coefficient;
+         entry.rule = i;
+         entry.variable = columnNumber;
+
+         // Add the entry to the matrix
+         coefficientMatrix.push_back(entry);
+      }
+   }
+   auto numVariables = *max_element(coefficientMatrix.begin(), coefficientMatrix.end(), CompareMaxColumn);
+
+
+   return std::make_tuple(coefficientMatrix, numRules, numVariables.variable + 1);
+}
+
+int main()
+{
+
+   std::ifstream input("lp.txt");
+
+   /*for (std::string line; getline(input, line);){
+       myData = parseLPProblem(line);
+   }*/
+
+   std::string line;
+   getline(input, line);
+   std::tuple<std::vector<Entry>,unsigned, unsigned> myData = parseLPProblem(line);
+
+
+   LPSolver simplex(get<0>(myData), get<1>(myData));
+
+   simplex.solveSimplex(get<2>(myData), ~0u);
+
+   return 0;
 }
