@@ -1,15 +1,3 @@
-// during a revised simplex iteration:
-
-// 2. find the leaving variable
-// calculate d with d=B^(-1)a with a being the entering column => solve the system Bd = a
-// compute the largest ratio x*_B/d
-// the index of that t is the leaving variable
-
-// 3. update the current basic feasible solution
-// set entering variable at t
-// other basic variables = x*_B - td
-// replace leaving column of B by the entering column
-
 #include <algorithm>
 #include <cassert>
 #include <cmath>
@@ -34,7 +22,7 @@ public:
    struct eta
    {
       size_t col;
-      vector<double> values;
+      vector<float> values;
    };
    // The sparse coefficient matrix M
    std::vector<Entry> matrix;
@@ -155,9 +143,13 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       if (enteringIndex == -1)
       {
          printf("\nNo entering var. Optimal value of %5.3f has been reached.\n", z);
-         return 0;
+         foundSolution = true;
+         break;
       }
-
+      // 2. find the leaving variable
+      // calculate d with d=B^(-1)a with a being the entering column => solve the system Bd = a
+      // compute the largest ratio x*_B/d
+      // the index of that t is the leaving variable
       // we solve the system Bd = a using eta matrices
       // initialise d to be a the entering column
 
@@ -200,6 +192,46 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
          printf("\nThe given LP is unbounded. The family of solutions is:\n");
          return 0;
       }
+
+      for (size_t row = 0; row < d.size(); ++row)
+      {
+         if (d[row] < 0.0)
+         {
+            continue;
+         }
+         double t_row = basic[row].value / d[row];
+         if (t_row < smallest_t)
+         {
+            leavingLabel = basic[row].label;
+            leavingRow = row;
+            smallest_t = t_row;
+         }
+      }
+      // 3. update the current basic feasible solution
+      // set entering variable at t
+      // other basic variables = x*_B - td
+      // replace leaving column of B by the entering column , or add d as an eta matrix
+      variable enteringVar = {enteringIndex, smallest_t};
+      basic[leavingRow] = enteringVar;
+
+      for (size_t row = 0; row < sizeof(basic) / sizeof(basic[0]); ++row)
+      {
+         if (row != leavingRow)
+         {
+            basic[row].value -= d[row] * smallest_t;
+         }
+      }
+
+      // push a new eta matrix onto the vector
+      eta pivot = {leavingRow, d};
+      pivots.push_back(pivot);
+      
+      nonBasic[enteringIndex] = leavingLabel;
+      double increasedValue = objFuncCoeff[enteringIndex] * smallest_t;
+                
+      double originalZ = z;
+        
+      z += increasedValue;
    }
 
    if (!foundSolution)
