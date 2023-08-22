@@ -83,10 +83,10 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
    float objFuncCoeff[n + m];
    size_t i;
    for (i = 0; i < n; i++)
-   {
+   { 
       objFuncCoeff[i] = 1.0;
    }
-   for (i = n; i < m; i++)
+   for (i = n; i < m+n; i++)
    {
       objFuncCoeff[i] = 0.0f;
    }
@@ -98,10 +98,10 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
    {
       nonBasic[i] = i;
    }
-   // Initialize the basic variables to be n through m and their values to be the right-hand-side vector b which is 1
-   for (size_t i = n; i < m; ++i)
+   // Initialize the basic variables to be n through m+n-1 and their values to be the right-hand-side vector b which is 1
+   for (size_t i = 0; i < m; ++i)
    {
-      basic[i].label = i;
+      basic[i].label = i+n;
       basic[i].value = 1.0f;
    }
 
@@ -201,6 +201,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
             leavingLabel = basic[row].label;
             leavingRow = row;
             smallest_t = basic[row].value / d[row];
+            // break;
          }
       }
 
@@ -213,7 +214,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
 
       for (size_t row = 0; row < d.size(); ++row)
       {
-         if (d[row] < 0.0)
+         if (d[row] <= 0.0)
          {
             continue;
          }
@@ -245,19 +246,20 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       pivots.push_back(pivot);
 
       nonBasic[enteringLabel] = leavingLabel;
-      double increasedValue = objFuncCoeff[enteringLabel] * smallest_t;
-
-      double originalZ = z;
-
-      z += increasedValue;
+      
+      // recalculate z TODO: change thisss!!!! to  a more efficient implem
+      z = 0;
+      for (size_t i = 0; i < basic.size(); i++)
+      {
+         z += basic[i].value * objFuncCoeff[basic[i].label];
+      }
+      
    }
 
    if (!foundSolution)
       return -1.0f;
 
-   float result = 0.0f;
-
-   return result;
+   return z;
 }
 
 // function to solve Ex = b with E being an eta matrix
@@ -384,7 +386,9 @@ int main()
 
    LPSolver simplex(get<0>(myData), get<1>(myData));
 
-   simplex.solveSimplex(get<2>(myData), ~0u);
+   float z = simplex.solveSimplex(get<2>(myData), 100);
+   printf("\nOptimal value of %5.3f has been reached.\n", z);
+
 
    return 0;
 }
