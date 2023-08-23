@@ -9,6 +9,10 @@
 #include <fstream>
 #include <sstream>
 
+// zero tolerances
+static const double epsilon1 = 0.00001;
+static const double epsilon2 = 0.00000001;
+
 struct Entry
 {
    /// The coefficient
@@ -84,7 +88,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
    size_t i;
    for (i = 0; i < n; i++)
    { 
-      objFuncCoeff[i] = 1.0;
+      objFuncCoeff[i] = 1.0f;
    }
    for (i = n; i < m+n; i++)
    {
@@ -99,6 +103,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       nonBasic[i] = i;
    }
    // Initialize the basic variables to be n through m+n-1 and their values to be the right-hand-side vector b which is 1
+   // initial feasible solution is (1,....,1) with z=0
    for (size_t i = 0; i < m; ++i)
    {
       basic[i].label = i+n;
@@ -108,13 +113,22 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
    // problem is initially feasible since b >= 0
    // An array of eta matrices representing previous pivots
    // the most recent pivot should be at the beginning
-   vector<eta> pivots{};
 
    // initial value of objective function
-   float z = 0;
 
    unsigned step = 0;
    bool foundSolution = false;
+
+   /***************variables needed during each iteration****************/
+   vector<float> y(m);
+   vector<eta> pivots{};
+   float z = 0;
+
+
+
+
+   /********************************************************************************/
+
    for (; step < stepLimit; step++)
    {
       // 1. find the entering variable: solve the system yB = C_b
@@ -122,8 +136,6 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
 
       // we solve the system yB = C_b using eta matrices
       // initialise y to C_b
-
-      vector<float> y(m);
 
       for (size_t i = 0; i < m; i++)
       {
@@ -137,9 +149,10 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       }
       // now calculate C_n -yA_n and then choose A_j column with
       // first positive coefficient --> pricing
+      // TODO: choose A_j with max r
 
-      float r;
-      unsigned int nonBasicColumnIndex;
+      float r = 0.0 ;
+      unsigned int nonBasicColumnIndex = -1;
       unsigned int enteringLabel = -1;
       vector<Entry> nonBasicColumn;
       for (size_t i = 0; i < n; i++)
@@ -151,7 +164,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
          {
             r -= nonBasicColumn[i].coef * y[nonBasicColumn[i].rule];
          }
-         if (r > 0)
+         if (r > epsilon1)
          {
             enteringLabel = nonBasicColumnIndex;
             break;
@@ -171,12 +184,11 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       // we solve the system Bd = a using eta matrices
       // initialise d to be a the entering column
 
-      vector<float> d(m);
+      vector<float> d(m, 0.0f);
 
       for (size_t i = 0; i < nonBasicColumn.size(); i++)
       {
          d[nonBasicColumn[i].rule] = nonBasicColumn[i].coef;
-         // the rest of indices should be filled with 0.0 !!!
       }
       // solving d using a succession of FTRAN operations
       for (auto rIter = pivots.crbegin(); rIter != pivots.crend(); ++rIter)
@@ -193,7 +205,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       // as the leaving variable
 
       // initialize smallest_t to be the first ratio where
-      // the coefficient of the entering variable in that row is negative
+      // the coefficient of the entering variable in that row is positive
       for (size_t row = 0; row < d.size(); ++row)
       {
          if (d[row] > 0.0)
@@ -201,7 +213,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
             leavingLabel = basic[row].label;
             leavingRow = row;
             smallest_t = basic[row].value / d[row];
-            // break;
+            break;
          }
       }
 
@@ -219,7 +231,7 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
             continue;
          }
          double t_row = basic[row].value / d[row];
-         if (t_row < smallest_t)
+         if (t_row < smallest_t && t_row > 0)
          {
             leavingLabel = basic[row].label;
             leavingRow = row;
@@ -233,11 +245,14 @@ float LPSolver::solveSimplex(unsigned n, unsigned stepLimit)
       variable enteringVar = {enteringLabel, smallest_t};
       basic[leavingRow] = enteringVar;
 
-      for (size_t row = 0; row < sizeof(basic) / sizeof(basic[0]); ++row)
+      for (size_t row = 0; row < m; ++row)
       {
          if (row != leavingRow)
          {
             basic[row].value -= d[row] * smallest_t;
+            if(basic[row].value < epsilon1){
+               basic[row].value = 0; 
+            }
          }
       }
 
@@ -276,7 +291,7 @@ void LPSolver::solveEtaFTRAN(eta matrix, vector<float> *b)
       }
    }
 }
-// function to solve xE = b with E being an eta matrix
+// function to solve xE = b with E being an eta matrix, stores solution in b
 void LPSolver::solveEtaBTRAN(eta pivotMatrix, vector<float> *b)
 {
    size_t colToChange = pivotMatrix.col;
@@ -386,7 +401,7 @@ int main()
 
    LPSolver simplex(get<0>(myData), get<1>(myData));
 
-   float z = simplex.solveSimplex(get<2>(myData), 100);
+   float z = simplex.solveSimplex(get<2>(myData), 100000);
    printf("\nOptimal value of %5.3f has been reached.\n", z);
 
 
