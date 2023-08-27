@@ -434,11 +434,7 @@ std::tuple<std::vector<Entry>, unsigned, unsigned> parseLPProblem(const std::str
       for (int j = 0; j < numEntries; j++)
       {
          int columnNumber;
-<<<<<<< HEAD
-         double coefficient;
-=======
          float coefficient;      
->>>>>>> 1b6c65c (solve issues)
          iss >> columnNumber >> coefficient;
          entry.coef = coefficient;
          entry.rule = i;
