@@ -7,13 +7,11 @@
 #include <fstream>
 #include <algorithm>
 #include <cassert>
+#include <chrono>
 // zero tolerances
 static const double epsilon1 = 0.00001;
-static const double epsilon2 = 0.00000001; // TODO: find a way to filter out nan and -inf
-// In IEEE 754, the most common binary representation of floating-point numbers, 
-//the positive infinity is the value with all bits of the exponent set and all bits of the fraction cleared. 
-//he NaN in C++ can occur in the given three conditions which are when the log of a negative number or 
-//zero is taken when we divide a number by zero, and the square root of the negative number.
+static const double epsilon2 = 0.00000001; 
+
 using namespace std;
 
 struct lpProblemData
@@ -68,7 +66,7 @@ public:
         }
     }
 
-    bool simplexAlgorithmCalculation()
+    bool solveSimplexTableauIteration()
     {
         // check whether the table is optimal,if optimal no need to process further
         if (checkOptimality() == true)
@@ -274,56 +272,15 @@ public:
         std::cout << std::endl;   
 
     }
-    void CalculateSimplex()
+   double CalculateSimplex()
     {
         bool end = false;
 
-        cout << "initial array(Not optimal)" << endl;
-        DisplaySimplex();
-
-        cout << " " << endl;
-        cout << "final array(Optimal solution)" << endl;
-
         while (!end)
         {
-
-            bool result = simplexAlgorithmCalculation();
-            DisplaySimplex();
-            cout << " " << endl;
-
-            end = result;
+           end = solveSimplexTableauIteration();
         }
-        cout << "Answers for the Constraints of variables" << endl;
-
-        for (int i = 0; i < A.size(); i++)
-        { // every basic column has the values, get it form B array
-            int count0 = 0;
-            int index = 0;
-            for (int j = 0; j < rows; j++)
-            {
-                if (A[j][i] == 0.0)
-                {
-                    count0 += 1;
-                }
-                else if (A[j][i] == 1)
-                {
-                    index = j;
-                }
-            }
-
-            if (count0 == rows - 1)
-            {
-
-                cout << "variable" << index + 1 << ": " << B[index] << endl; // every basic column has the values, get it form B array
-            }
-            else
-            {
-                cout << "variable" << index + 1 << ": " << 0 << endl;
-            }
-        }
-
-        cout << "" << endl;
-        cout << "maximum value: " << maximum << endl; // print the maximum values
+        return maximum;
     }
 };
 struct lpProblemData parseLPProblem(const std::string &lpString)
@@ -332,11 +289,11 @@ struct lpProblemData parseLPProblem(const std::string &lpString)
     std::vector<double> C;
     std::vector<double> B;
 
-    // columns = number of structural variables + number of slack variables
-    // number of structural variables = maximu column index + 1
+    // columns = number of decision variables + number of slack variables
+    // number of decision variables = maximu column index + 1
     // number of slack variables = number of rules
     // rows = number of rules + 1
-    // number of structural variables = max column index + 1
+    // number of decision variables = max column index + 1
     std::istringstream iss(lpString);
     std::istringstream issCopy(lpString);
 
@@ -410,21 +367,40 @@ struct lpProblemData parseLPProblem(const std::string &lpString)
 int main()
 {
 
-    std::ifstream input("lp.txt");
-    lpProblemData myData;
+   std::ifstream input("lp.txt");
+    std::ofstream outfile("benchmark_results_tableau.txt", std::ios::out);
 
-    /*for (std::string line; getline(input, line);){
-        myData = parseLPProblem(line);
-    }*/
+    if (!input.is_open()) {
+        std::cerr << "Failed to open input file" << std::endl;
+        return 1;
+    }
 
-    std::string line;
-    getline(input, line);
-    myData = parseLPProblem(line);
+    if (!outfile.is_open()) {
+        std::cerr << "Failed to open output file" << std::endl;
+        return 1;
+    }
 
-    // hear the make the class parameters with A[m][n] vector b[] vector and c[] vector
-    Simplex simplex(myData.A, myData.B, myData.C);
+    int trial = 0;
 
-    simplex.CalculateSimplex();
+    for (std::string line; getline(input, line); ++trial) {
+        auto start = std::chrono::high_resolution_clock::now();
+        
+        lpProblemData myData = parseLPProblem(line);
+
+        Simplex simplex(myData.A, myData.B, myData.C);
+
+        double z = simplex.CalculateSimplex();
+
+        auto stop = std::chrono::high_resolution_clock::now();
+        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+
+        // Output the result to console and file
+        printf("Trial %d: Optimal value of %5.3f has been reached. Time taken: %d microseconds\n", trial+1, z, duration.count());
+        outfile << "Trial " << trial+1 << ": Optimal value of " << z << " has been reached. Time taken: " << duration.count() << " microseconds\n";
+    }
+
+    input.close();
+    outfile.close();
 
     return 0;
 }
