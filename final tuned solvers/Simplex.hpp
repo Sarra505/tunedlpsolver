@@ -28,22 +28,22 @@ public:
                 printf("\nNo entering var. Optimal value of %5.3f has been reached.\n", z);
                 return z;
             }
-            for (unsigned pivotColumn : enteringVars)
+            unsigned pivotColumn = enteringVars[0];
+
+            unsigned pivotRow = findPivotRowOrCheckUnboundedness(pivotColumn, n);
+            if (pivotRow == -1)
             {
-                unsigned pivotRow = findPivotRowOrCheckUnboundedness(pivotColumn, n);
-                if (pivotRow == -1)
-                {
-                    continue;
-                }
-                double pivotValue = denseMatrix[pivotRow * (n + m) + pivotColumn];
-                if (pivotValue > epsilon2)
-                {
-                    doPivotting(pivotRow, pivotColumn, z, n);
-                    break;
-                }
+                printf("\nThe given LP is unbounded. The family of solutions is:\n");
+                return numeric_limits<double>::infinity();
             }
+            /*double pivotValue = denseMatrix[pivotRow * (n + m) + pivotColumn];
+            if (pivotValue > epsilon2)
+            {
+                doPivotting(pivotRow, pivotColumn, z, n);
+                break;
+            }*/
+            doPivotting(pivotRow, pivotColumn, z, n);
         }
-        return z;
     }
 
     void doPivotting(int pivotRow, int pivotColumn, double &z, int n)
@@ -80,6 +80,7 @@ public:
         for (int i = 0; i < (n + m); ++i)
         {
             C[i] -= multiplier * denseMatrix[pivotRow * (n + m) + i];
+            if(abs(C[i]) < epsilon3) C[i] = 0.0;
         }
     }
 
@@ -91,7 +92,7 @@ public:
         // Fill in the non-zero values from the sparse matrix
         for (const auto &entry : sparseMatrix)
         {
-            int index = entry.rule * n + entry.variable;
+            int index = entry.rule * (n+m) + entry.variable;
             denseVector[index] = entry.coef;
         }
         // Add slack variables
@@ -121,21 +122,22 @@ public:
         double value;
         int pivotRow = 0;
         int nonpositiveCount = 0;
-        double min_denominator = 1.0; // Initialize to 1 to avoid division by zero
-        double min_numerator = numeric_limits<double>::max();
-        ;
+        double ratio;
+        double minRatio = numeric_limits<double>::max(); // Initialize to 1 to avoid division by zero
+
 
         for (int i = 0; i < m; i++)
         {
             value = denseMatrix[i * (n + m) + pivotColumn]; // Adjusted for 1D representation
             double b_value = B[i];
 
+
             if (value > 0)
             {
-                if (value * min_denominator < b_value * min_numerator)
+                ratio = b_value/value;
+                if (ratio < minRatio)
                 {
-                    min_numerator = value;
-                    min_denominator = b_value;
+                    minRatio = ratio;
                     pivotRow = i;
                 }
             }

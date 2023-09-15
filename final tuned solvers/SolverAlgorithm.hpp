@@ -16,6 +16,8 @@ using namespace std;
 // zero tolerances
 static const double epsilon1 = 0.00001;
 static const double epsilon2 = 0.000000001;
+static const double epsilon3 = 1e-50;
+
 
 class SolverAlgorithm
 {
