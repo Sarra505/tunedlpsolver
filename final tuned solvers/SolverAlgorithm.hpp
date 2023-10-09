@@ -18,33 +18,31 @@ static const double epsilon1 = 0.00001;
 static const double epsilon2 = 0.000000001;
 static const double epsilon3 = 1e-50;
 
-
 class SolverAlgorithm
 {
 public:
-    // The sparse coefficient matrix M
-    std::vector<Entry> matrix;
+   // The sparse coefficient matrix M
+   std::vector<Entry> matrix;
 
-    std::vector<double> B;
-    std::vector<double> C;
-    // the matrix is also stored in CCS format to facilitate column-based operations
-    /// coefficients of non-zero elements in M
-    std::vector<double> values;
-    /// row indices of non-zero elements in M
-    std::vector<unsigned> rows;
-    /// colOffsets[i] tells you where the i-th column starts in the rules and coefs arrays
-    std::vector<unsigned> colOffsets;
-    /// The number of rules
-    unsigned m = 0;
-    // indices of non basic variables
-    std::vector<unsigned> nonBasic;
-    // indices and current values of basic variables
-    std::vector<variable> basic;
-    virtual double solve(unsigned n, unsigned stepLimit) = 0;
-    void prepareCCSFormat(unsigned n);
-    auto getCoefs(unsigned i);
-    auto getRules(unsigned i);
-
+   std::vector<double> B;
+   std::vector<double> C;
+   // the matrix is also stored in CCS format to facilitate column-based operations
+   /// coefficients of non-zero elements in M
+   std::vector<double> values;
+   /// row indices of non-zero elements in M
+   std::vector<unsigned> rows;
+   /// colOffsets[i] tells you where the i-th column starts in the rules and coefs arrays
+   std::vector<unsigned> colOffsets;
+   /// The number of rules
+   unsigned m = 0;
+   // indices of non basic variables
+   std::vector<unsigned> nonBasic;
+   // indices and current values of basic variables
+   std::vector<variable> basic;
+   virtual double solve(unsigned n, unsigned stepLimit) = 0;
+   void prepareCCSFormat(unsigned n);
+   auto getCoefs(unsigned i);
+   auto getRules(unsigned i);
 };
 auto SolverAlgorithm::getCoefs(unsigned i) { return values.data() + colOffsets[i]; };
 
@@ -64,7 +62,7 @@ tuple<vector<Entry>, unsigned, unsigned> parseCoefficientMatrix(const string &lp
    // number of slack variables = number of rules
    // rows = number of rules + 1
    // number of decision variables = max column index + 1
-   
+
    istringstream iss(lpString);
 
    int numRules;

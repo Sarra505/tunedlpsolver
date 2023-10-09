@@ -4,13 +4,13 @@
 // #include "RevisedSimplexMPFI.hpp"
 #include "RevisedSimplexPFI.hpp"
 
-void compareSolvers(SolverAlgorithm &solver1, SolverAlgorithm &solver2, const std::vector<double> &coefficients);
-
 int main()
 {
 
     std::ifstream input("lp.txt");
-    std::ofstream outfile("benchmark_results.txt", std::ios::out);
+    std::ofstream outfileTableau("benchmark_results.txt", std::ios::out);
+    std::ofstream outfilePFI("benchmark_results_PFI.txt", std::ios::out);
+
 
     if (!input.is_open())
     {
@@ -18,7 +18,12 @@ int main()
         return 1;
     }
 
-    if (!outfile.is_open())
+    if (!outfileTableau.is_open())
+    {
+        std::cerr << "Failed to open output file" << std::endl;
+        return 1;
+    }
+    if (!outfilePFI.is_open())
     {
         std::cerr << "Failed to open output file" << std::endl;
         return 1;
@@ -49,18 +54,33 @@ int main()
 
         auto start = std::chrono::high_resolution_clock::now();
 
-        auto z = simplexSolver.solve(numVariables, 30);
+        double z = simplexSolver.solve(numVariables, ~0u);
 
         auto stop = std::chrono::high_resolution_clock::now();
         auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
 
+        RevisedSimplexPFI revisedSimplexSolver;
+        revisedSimplexSolver.matrix = get<0>(myData);
+        revisedSimplexSolver.m = numRules;
+
+        auto startPFI = std::chrono::high_resolution_clock::now();
+
+        double zPFI = revisedSimplexSolver.solve(numVariables, ~0u);
+
+        auto stopPFI = std::chrono::high_resolution_clock::now();
+        auto durationPFI = std::chrono::duration_cast<std::chrono::microseconds>(stopPFI - startPFI);
+        
+
         // Output the result to console and file
         printf("Trial %d: Optimal value of %5.3f has been reached. Time taken: %d microseconds\n", trial + 1, z, duration.count());
-        outfile << "Trial " << trial + 1 << ": Optimal value of " << z << " has been reached. Time taken: " << duration.count() << " microseconds.\n";
+        outfileTableau << "Trial " << trial + 1 << ": Optimal value of " << z << " has been reached. Time taken: " << duration.count() << " microseconds.\n";
+        outfilePFI << "Trial " << trial + 1 << ": Optimal value of " << zPFI << " has been reached. Time taken: " << durationPFI.count() << " microseconds.\n";
+
     }
 
     input.close();
-    outfile.close();
+    outfileTableau.close();
+    outfilePFI.close();
 
     return 0;
 }

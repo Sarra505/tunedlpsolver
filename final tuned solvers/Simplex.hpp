@@ -18,10 +18,11 @@ public:
 
         double z = 0.0;
         unsigned step = 0;
+        vector<unsigned> enteringVars;
 
         for (; step < stepLimit; step++)
         {
-            vector<unsigned> enteringVars = findPivotColumnCandidates();
+            enteringVars = findPivotColumnCandidates();
 
             if (enteringVars.size() == 0)
             {
@@ -36,12 +37,6 @@ public:
                 printf("\nThe given LP is unbounded. The family of solutions is:\n");
                 return numeric_limits<double>::infinity();
             }
-            /*double pivotValue = denseMatrix[pivotRow * (n + m) + pivotColumn];
-            if (pivotValue > epsilon2)
-            {
-                doPivotting(pivotRow, pivotColumn, z, n);
-                break;
-            }*/
             doPivotting(pivotRow, pivotColumn, z, n);
         }
     }
@@ -80,14 +75,13 @@ public:
         for (int i = 0; i < (n + m); ++i)
         {
             C[i] -= multiplier * denseMatrix[pivotRow * (n + m) + i];
-            if(abs(C[i]) < epsilon3) C[i] = 0.0;
+            //if(abs(C[i]) < epsilon3) C[i] = 0.0;
         }
     }
 
-    std::vector<double> prepareDenseMatrix(const std::vector<Entry> &sparseMatrix, int m, int n)
+    vector<double> prepareDenseMatrix(const std::vector<Entry> &sparseMatrix, int m, int n)
     {
-        // Initialize dense vector with zeros
-        std::vector<double> denseVector(m * (m + n), 0.0);
+        vector<double> denseVector(m * (m + n), 0.0);
 
         // Fill in the non-zero values from the sparse matrix
         for (const auto &entry : sparseMatrix)
@@ -123,12 +117,12 @@ public:
         int pivotRow = 0;
         int nonpositiveCount = 0;
         double ratio;
-        double minRatio = numeric_limits<double>::max(); // Initialize to 1 to avoid division by zero
+        double minRatio = numeric_limits<double>::max(); 
 
 
         for (int i = 0; i < m; i++)
         {
-            value = denseMatrix[i * (n + m) + pivotColumn]; // Adjusted for 1D representation
+            value = denseMatrix[i * (n + m) + pivotColumn]; 
             double b_value = B[i];
 
 
