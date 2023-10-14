@@ -39,6 +39,8 @@ public:
    std::vector<unsigned> nonBasic;
    // indices and current values of basic variables
    std::vector<variable> basic;
+
+   unsigned numberStepsLastLP;
    virtual double solve(unsigned n, unsigned stepLimit) = 0;
    void prepareCCSFormat(unsigned n);
    auto getCoefs(unsigned i);

@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Simplex.hpp"
-// #include "RevisedSimplexMPFI.hpp"
+#include "RevisedSimplexMPFI.hpp"
 #include "RevisedSimplexPFI.hpp"
 
 int main()
@@ -10,7 +10,7 @@ int main()
     std::ifstream input("lp.txt");
     std::ofstream outfileTableau("benchmark_results.txt", std::ios::out);
     std::ofstream outfilePFI("benchmark_results_PFI.txt", std::ios::out);
-
+    std::ofstream outfileMPFI("benchmark_results_MPFI.txt", std::ios::out);
 
     if (!input.is_open())
     {
@@ -28,59 +28,99 @@ int main()
         std::cerr << "Failed to open output file" << std::endl;
         return 1;
     }
+    if (!outfileMPFI.is_open())
+    {
+        std::cerr << "Failed to open output file" << std::endl;
+        return 1;
+    }
 
     int trial = 0;
+    const int MAX_REPS = 100; // Maximum number of repetitions
+    int reps;                 // Actual number of repetitions
 
     for (string line; getline(input, line); ++trial)
     {
 
         tuple<vector<Entry>, unsigned, unsigned> myData = parseCoefficientMatrix(line);
 
-        Simplex simplexSolver;
-        // initialize the coefficient matrix sparse
-        simplexSolver.matrix = get<0>(myData);
         unsigned numRules = get<1>(myData);
         unsigned numVariables = get<2>(myData);
-        simplexSolver.m = numRules;
-        // initialize the b vector
-        vector<double> b(numRules, 1.0);
-        simplexSolver.B = b;
-        // initialize the c vector
         vector<double> c;
-        c.resize(numVariables + numRules); 
+        c.resize(numVariables + numRules);
         fill(c.begin(), c.begin() + numVariables, -1.0); // Fill the first n elements with -1
         fill(c.begin() + numVariables, c.end(), 0.0);    // Fill the remaining m elements with 0
+
+        // initialize the b vector
+        vector<double> b(numRules, 1.0);
+        //---------------------------------------------------------------------------------------------
+        Simplex simplexSolver;
+        simplexSolver.matrix = get<0>(myData);
+        simplexSolver.m = numRules;
+        simplexSolver.B = b;
         simplexSolver.C = c;
 
-        auto start = std::chrono::high_resolution_clock::now();
+        auto totalDuration = 0;
+        double zTableau;
+        for (reps = 0; reps < MAX_REPS; ++reps)
+        {
+            simplexSolver.B = b;
+            simplexSolver.C = c;
+            auto start = std::chrono::high_resolution_clock::now();
+            zTableau = simplexSolver.solve(numVariables, ~0u);
+            auto stop = std::chrono::high_resolution_clock::now();
+            totalDuration += std::chrono::duration_cast<std::chrono::microseconds>(stop - start).count();
+        }
+        auto avgDuration = (double)totalDuration / reps;
+        //---------------------------------------------------------------------------------------------
+        RevisedSimplexMPFI revisedSimplexMPFISolver;
+        revisedSimplexMPFISolver.matrix = get<0>(myData);
+        revisedSimplexMPFISolver.m = numRules;
 
-        double z = simplexSolver.solve(numVariables, ~0u);
+        auto totalDurationMPFI = 0;
+        double zMPFI;
+        for (reps = 0; reps < MAX_REPS; ++reps)
+        {
+            auto startMPFI = std::chrono::high_resolution_clock::now();
+            zMPFI = revisedSimplexMPFISolver.solveSimplex(numVariables, ~0u);
+            auto stopMPFI = std::chrono::high_resolution_clock::now();
+            totalDurationMPFI += std::chrono::duration_cast<std::chrono::microseconds>(stopMPFI - startMPFI).count();
+        }
 
-        auto stop = std::chrono::high_resolution_clock::now();
-        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
-
+        auto avgDurationMPFI = (double)totalDurationMPFI / reps;
+        //---------------------------------------------------------------------------------------------
         RevisedSimplexPFI revisedSimplexSolver;
         revisedSimplexSolver.matrix = get<0>(myData);
         revisedSimplexSolver.m = numRules;
 
-        auto startPFI = std::chrono::high_resolution_clock::now();
+        auto totalDurationPFI = 0;
+        double zPFI;
+        for (reps = 0; reps < MAX_REPS; ++reps)
+        {
+            auto startPFI = std::chrono::high_resolution_clock::now();
+            zPFI = revisedSimplexSolver.solve(numVariables, ~0u);
+            auto stopPFI = std::chrono::high_resolution_clock::now();
+            totalDurationPFI += std::chrono::duration_cast<std::chrono::microseconds>(stopPFI - startPFI).count();
+        }
 
-        double zPFI = revisedSimplexSolver.solve(numVariables, ~0u);
+        auto avgDurationPFI = (double)totalDurationPFI / reps;
+        //---------------------------------------------------------------------------------------------
 
-        auto stopPFI = std::chrono::high_resolution_clock::now();
-        auto durationPFI = std::chrono::duration_cast<std::chrono::microseconds>(stopPFI - startPFI);
-        
+        //---------------------------------------------------------------------------------------------
 
-        // Output the result to console and file
-        printf("Trial %d: Optimal value of %5.3f has been reached. Time taken: %d microseconds\n", trial + 1, z, duration.count());
-        outfileTableau << "Trial " << trial + 1 << ": Optimal value of " << z << " has been reached. Time taken: " << duration.count() << " microseconds.\n";
-        outfilePFI << "Trial " << trial + 1 << ": Optimal value of " << zPFI << " has been reached. Time taken: " << durationPFI.count() << " microseconds.\n";
+        // Output the result to  file
 
+        outfileTableau << "Trial " << trial + 1 << ": Optimal value of " << zTableau
+                       << " has been reached. Time taken: " << avgDuration << " microseconds. NumIter: " << simplexSolver.numberStepsLastLP << " iterations.\n";
+        outfilePFI << "Trial " << trial + 1 << ": Optimal value of " << zPFI
+                   << " has been reached. Time taken: " << avgDurationPFI << " microseconds. NumIter: " << revisedSimplexSolver.numberStepsLastLP << " iterations.\n";
+        outfileMPFI << "Trial " << trial + 1 << ": Optimal value of " << zMPFI
+                    << " has been reached. Time taken: " << avgDurationMPFI << " microseconds. NumIter: " << revisedSimplexMPFISolver.lastStepCount << " iterations.\n";
     }
 
     input.close();
     outfileTableau.close();
     outfilePFI.close();
+    outfileMPFI.close();
 
     return 0;
 }

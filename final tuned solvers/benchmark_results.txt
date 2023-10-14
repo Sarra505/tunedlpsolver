@@ -1,1423 +1,184 @@
-Trial 1: Optimal value of 12.3661 has been reached. Time taken: 42 microseconds.
-Trial 2: Optimal value of 23.0815 has been reached. Time taken: 12 microseconds.
-Trial 3: Optimal value of 25.32 has been reached. Time taken: 14 microseconds.
-Trial 4: Optimal value of 19.2452 has been reached. Time taken: 10 microseconds.
-Trial 5: Optimal value of 22.6349 has been reached. Time taken: 15 microseconds.
-Trial 6: Optimal value of 16.4654 has been reached. Time taken: 7 microseconds.
-Trial 7: Optimal value of 18.8748 has been reached. Time taken: 7 microseconds.
-Trial 8: Optimal value of 20.6702 has been reached. Time taken: 11 microseconds.
-Trial 9: Optimal value of 15.295 has been reached. Time taken: 11 microseconds.
-Trial 10: Optimal value of 23.0815 has been reached. Time taken: 9 microseconds.
-Trial 11: Optimal value of 23.5535 has been reached. Time taken: 9 microseconds.
-Trial 12: Optimal value of 13.6394 has been reached. Time taken: 9 microseconds.
-Trial 13: Optimal value of 13.6394 has been reached. Time taken: 8 microseconds.
-Trial 14: Optimal value of 33.1054 has been reached. Time taken: 14 microseconds.
-Trial 15: Optimal value of 32.6555 has been reached. Time taken: 23 microseconds.
-Trial 16: Optimal value of 24.2422 has been reached. Time taken: 9 microseconds.
-Trial 17: Optimal value of 19.2452 has been reached. Time taken: 8 microseconds.
-Trial 18: Optimal value of 20.4643 has been reached. Time taken: 8 microseconds.
-Trial 19: Optimal value of 14.2942 has been reached. Time taken: 9 microseconds.
-Trial 20: Optimal value of 16.3933 has been reached. Time taken: 9 microseconds.
-Trial 21: Optimal value of 25.0585 has been reached. Time taken: 11 microseconds.
-Trial 22: Optimal value of 35.7997 has been reached. Time taken: 24 microseconds.
-Trial 23: Optimal value of 17.4687 has been reached. Time taken: 8 microseconds.
-Trial 24: Optimal value of 20.3012 has been reached. Time taken: 15 microseconds.
-Trial 25: Optimal value of 20.6702 has been reached. Time taken: 10 microseconds.
-Trial 26: Optimal value of 35.7997 has been reached. Time taken: 20 microseconds.
-Trial 27: Optimal value of 22.5729 has been reached. Time taken: 15 microseconds.
-Trial 28: Optimal value of 21.7412 has been reached. Time taken: 12 microseconds.
-Trial 29: Optimal value of 25.1467 has been reached. Time taken: 9 microseconds.
-Trial 30: Optimal value of 11.9715 has been reached. Time taken: 9 microseconds.
-Trial 31: Optimal value of 10.6416 has been reached. Time taken: 9 microseconds.
-Trial 32: Optimal value of 25.0585 has been reached. Time taken: 10 microseconds.
-Trial 33: Optimal value of 33.2208 has been reached. Time taken: 27 microseconds.
-Trial 34: Optimal value of 31.9759 has been reached. Time taken: 15 microseconds.
-Trial 35: Optimal value of 20.4643 has been reached. Time taken: 8 microseconds.
-Trial 36: Optimal value of 26.3634 has been reached. Time taken: 14 microseconds.
-Trial 37: Optimal value of 29.8393 has been reached. Time taken: 18 microseconds.
-Trial 38: Optimal value of 27.4595 has been reached. Time taken: 15 microseconds.
-Trial 39: Optimal value of 18.9971 has been reached. Time taken: 9 microseconds.
-Trial 40: Optimal value of 5.16238 has been reached. Time taken: 8 microseconds.
-Trial 41: Optimal value of 30.0242 has been reached. Time taken: 12 microseconds.
-Trial 42: Optimal value of 23.5535 has been reached. Time taken: 10 microseconds.
-Trial 43: Optimal value of 35.6324 has been reached. Time taken: 21 microseconds.
-Trial 44: Optimal value of 9.9228 has been reached. Time taken: 8 microseconds.
-Trial 45: Optimal value of 17.8603 has been reached. Time taken: 10 microseconds.
-Trial 46: Optimal value of 19.1806 has been reached. Time taken: 9 microseconds.
-Trial 47: Optimal value of 20.4643 has been reached. Time taken: 9 microseconds.
-Trial 48: Optimal value of 23.1578 has been reached. Time taken: 14 microseconds.
-Trial 49: Optimal value of 24.2422 has been reached. Time taken: 9 microseconds.
-Trial 50: Optimal value of 23.0815 has been reached. Time taken: 10 microseconds.
-Trial 51: Optimal value of 13.6394 has been reached. Time taken: 9 microseconds.
-Trial 52: Optimal value of 20.1928 has been reached. Time taken: 10 microseconds.
-Trial 53: Optimal value of 23.5535 has been reached. Time taken: 12 microseconds.
-Trial 54: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 55: Optimal value of 17.6243 has been reached. Time taken: 6 microseconds.
-Trial 56: Optimal value of 32.1818 has been reached. Time taken: 10 microseconds.
-Trial 57: Optimal value of 25.0585 has been reached. Time taken: 7 microseconds.
-Trial 58: Optimal value of 20.6702 has been reached. Time taken: 6 microseconds.
-Trial 59: Optimal value of 20.0976 has been reached. Time taken: 6 microseconds.
-Trial 60: Optimal value of 10.3763 has been reached. Time taken: 6 microseconds.
-Trial 61: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 62: Optimal value of 16.6059 has been reached. Time taken: 6 microseconds.
-Trial 63: Optimal value of 21.5155 has been reached. Time taken: 6 microseconds.
-Trial 64: Optimal value of 15.295 has been reached. Time taken: 7 microseconds.
-Trial 65: Optimal value of 20.4643 has been reached. Time taken: 7 microseconds.
-Trial 66: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 67: Optimal value of 26.3322 has been reached. Time taken: 10 microseconds.
-Trial 68: Optimal value of 28.0179 has been reached. Time taken: 10 microseconds.
-Trial 69: Optimal value of 17.8603 has been reached. Time taken: 7 microseconds.
-Trial 70: Optimal value of 11.172 has been reached. Time taken: 6 microseconds.
-Trial 71: Optimal value of 26.0841 has been reached. Time taken: 7 microseconds.
-Trial 72: Optimal value of 26.4107 has been reached. Time taken: 10 microseconds.
-Trial 73: Optimal value of 18.0768 has been reached. Time taken: 7 microseconds.
-Trial 74: Optimal value of 23.0815 has been reached. Time taken: 7 microseconds.
-Trial 75: Optimal value of 15.2489 has been reached. Time taken: 5 microseconds.
-Trial 76: Optimal value of 14.1808 has been reached. Time taken: 6 microseconds.
-Trial 77: Optimal value of 19.2452 has been reached. Time taken: 7 microseconds.
-Trial 78: Optimal value of 19.4756 has been reached. Time taken: 6 microseconds.
-Trial 79: Optimal value of 37.6275 has been reached. Time taken: 16 microseconds.
-Trial 80: Optimal value of 36.7091 has been reached. Time taken: 12 microseconds.
-Trial 81: Optimal value of 16.3933 has been reached. Time taken: 8 microseconds.
-Trial 82: Optimal value of 18.8344 has been reached. Time taken: 5 microseconds.
-Trial 83: Optimal value of 22.3481 has been reached. Time taken: 10 microseconds.
-Trial 84: Optimal value of 36.2137 has been reached. Time taken: 11 microseconds.
-Trial 85: Optimal value of 36.7091 has been reached. Time taken: 14 microseconds.
-Trial 86: Optimal value of 21.7412 has been reached. Time taken: 7 microseconds.
-Trial 87: Optimal value of 11.172 has been reached. Time taken: 6 microseconds.
-Trial 88: Optimal value of 19.463 has been reached. Time taken: 7 microseconds.
-Trial 89: Optimal value of 17.8603 has been reached. Time taken: 6 microseconds.
-Trial 90: Optimal value of 35.7997 has been reached. Time taken: 13 microseconds.
-Trial 91: Optimal value of 8.47867 has been reached. Time taken: 5 microseconds.
-Trial 92: Optimal value of 13.902 has been reached. Time taken: 6 microseconds.
-Trial 93: Optimal value of 13.6394 has been reached. Time taken: 5 microseconds.
-Trial 94: Optimal value of 24.2495 has been reached. Time taken: 7 microseconds.
-Trial 95: Optimal value of 37.72 has been reached. Time taken: 14 microseconds.
-Trial 96: Optimal value of 36.2137 has been reached. Time taken: 13 microseconds.
-Trial 97: Optimal value of 22.3637 has been reached. Time taken: 9 microseconds.
-Trial 98: Optimal value of 13.6394 has been reached. Time taken: 6 microseconds.
-Trial 99: Optimal value of 18.8173 has been reached. Time taken: 6 microseconds.
-Trial 100: Optimal value of 22.9554 has been reached. Time taken: 6 microseconds.
-Trial 101: Optimal value of 18.1468 has been reached. Time taken: 7 microseconds.
-Trial 102: Optimal value of 8.62225 has been reached. Time taken: 7 microseconds.
-Trial 103: Optimal value of 20.6702 has been reached. Time taken: 6 microseconds.
-Trial 104: Optimal value of 28.4237 has been reached. Time taken: 10 microseconds.
-Trial 105: Optimal value of 35.7997 has been reached. Time taken: 12 microseconds.
-Trial 106: Optimal value of 17.8603 has been reached. Time taken: 6 microseconds.
-Trial 107: Optimal value of 15.295 has been reached. Time taken: 7 microseconds.
-Trial 108: Optimal value of 10.6416 has been reached. Time taken: 6 microseconds.
-Trial 109: Optimal value of 31.1492 has been reached. Time taken: 9 microseconds.
-Trial 110: Optimal value of 16.3933 has been reached. Time taken: 6 microseconds.
-Trial 111: Optimal value of 16.3933 has been reached. Time taken: 6 microseconds.
-Trial 112: Optimal value of 26.0841 has been reached. Time taken: 7 microseconds.
-Trial 113: Optimal value of 26.4107 has been reached. Time taken: 10 microseconds.
-Trial 114: Optimal value of 16.8929 has been reached. Time taken: 6 microseconds.
-Trial 115: Optimal value of 25.32 has been reached. Time taken: 9 microseconds.
-Trial 116: Optimal value of 23.0815 has been reached. Time taken: 7 microseconds.
-Trial 117: Optimal value of 31.4352 has been reached. Time taken: 10 microseconds.
-Trial 118: Optimal value of 31.4352 has been reached. Time taken: 10 microseconds.
-Trial 119: Optimal value of 12.1327 has been reached. Time taken: 6 microseconds.
-Trial 120: Optimal value of 13.1224 has been reached. Time taken: 6 microseconds.
-Trial 121: Optimal value of 42.1804 has been reached. Time taken: 24 microseconds.
-Trial 122: Optimal value of 19.463 has been reached. Time taken: 7 microseconds.
-Trial 123: Optimal value of 13.6411 has been reached. Time taken: 7 microseconds.
-Trial 124: Optimal value of 25.1467 has been reached. Time taken: 6 microseconds.
-Trial 125: Optimal value of 10.4265 has been reached. Time taken: 6 microseconds.
-Trial 126: Optimal value of 16.6059 has been reached. Time taken: 5 microseconds.
-Trial 127: Optimal value of 24.2422 has been reached. Time taken: 7 microseconds.
-Trial 128: Optimal value of 23.0815 has been reached. Time taken: 7 microseconds.
-Trial 129: Optimal value of 21.7412 has been reached. Time taken: 6 microseconds.
-Trial 130: Optimal value of 2.36219 has been reached. Time taken: 5 microseconds.
-Trial 131: Optimal value of 31.9759 has been reached. Time taken: 9 microseconds.
-Trial 132: Optimal value of 21.4756 has been reached. Time taken: 5 microseconds.
-Trial 133: Optimal value of 18.9684 has been reached. Time taken: 7 microseconds.
-Trial 134: Optimal value of 28.1951 has been reached. Time taken: 9 microseconds.
-Trial 135: Optimal value of 20.6702 has been reached. Time taken: 6 microseconds.
-Trial 136: Optimal value of 21.2422 has been reached. Time taken: 5 microseconds.
-Trial 137: Optimal value of 33.1054 has been reached. Time taken: 10 microseconds.
-Trial 138: Optimal value of 24.2422 has been reached. Time taken: 7 microseconds.
-Trial 139: Optimal value of 20.4643 has been reached. Time taken: 6 microseconds.
-Trial 140: Optimal value of 21.0976 has been reached. Time taken: 6 microseconds.
-Trial 141: Optimal value of 5.41375 has been reached. Time taken: 6 microseconds.
-Trial 142: Optimal value of 20.7721 has been reached. Time taken: 6 microseconds.
-Trial 143: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 144: Optimal value of 26.6559 has been reached. Time taken: 10 microseconds.
-Trial 145: Optimal value of 19.4545 has been reached. Time taken: 6 microseconds.
-Trial 146: Optimal value of 13.4314 has been reached. Time taken: 5 microseconds.
-Trial 147: Optimal value of 10.5285 has been reached. Time taken: 6 microseconds.
-Trial 148: Optimal value of 32.956 has been reached. Time taken: 12 microseconds.
-Trial 149: Optimal value of 21.554 has been reached. Time taken: 8 microseconds.
-Trial 150: Optimal value of 17.4687 has been reached. Time taken: 5 microseconds.
-Trial 151: Optimal value of 11.6416 has been reached. Time taken: 5 microseconds.
-Trial 152: Optimal value of 13.4228 has been reached. Time taken: 6 microseconds.
-Trial 153: Optimal value of 24.2422 has been reached. Time taken: 7 microseconds.
-Trial 154: Optimal value of 20.1928 has been reached. Time taken: 8 microseconds.
-Trial 155: Optimal value of 9.33742 has been reached. Time taken: 6 microseconds.
-Trial 156: Optimal value of 30.0242 has been reached. Time taken: 9 microseconds.
-Trial 157: Optimal value of 22.5729 has been reached. Time taken: 9 microseconds.
-Trial 158: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 159: Optimal value of 15.2826 has been reached. Time taken: 5 microseconds.
-Trial 160: Optimal value of 22.9554 has been reached. Time taken: 6 microseconds.
-Trial 161: Optimal value of 17.4687 has been reached. Time taken: 6 microseconds.
-Trial 162: Optimal value of 28.0179 has been reached. Time taken: 10 microseconds.
-Trial 163: Optimal value of 20.6702 has been reached. Time taken: 5 microseconds.
-Trial 164: Optimal value of 11.2567 has been reached. Time taken: 6 microseconds.
-Trial 165: Optimal value of 19.9214 has been reached. Time taken: 9 microseconds.
-Trial 166: Optimal value of 20.6702 has been reached. Time taken: 7 microseconds.
-Trial 167: Optimal value of 32.6555 has been reached. Time taken: 14 microseconds.
-Trial 168: Optimal value of 10.5285 has been reached. Time taken: 6 microseconds.
-Trial 169: Optimal value of 18.1807 has been reached. Time taken: 6 microseconds.
-Trial 170: Optimal value of 20.4892 has been reached. Time taken: 7 microseconds.
-Trial 171: Optimal value of 31.451 has been reached. Time taken: 10 microseconds.
-Trial 172: Optimal value of 14.6519 has been reached. Time taken: 6 microseconds.
-Trial 173: Optimal value of 28.0179 has been reached. Time taken: 10 microseconds.
-Trial 174: Optimal value of 24.2853 has been reached. Time taken: 7 microseconds.
-Trial 175: Optimal value of 23.0815 has been reached. Time taken: 7 microseconds.
-Trial 176: Optimal value of 14.3146 has been reached. Time taken: 9 microseconds.
-Trial 177: Optimal value of 19.3563 has been reached. Time taken: 6 microseconds.
-Trial 178: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 179: Optimal value of 12.6614 has been reached. Time taken: 6 microseconds.
-Trial 180: Optimal value of 24.2853 has been reached. Time taken: 7 microseconds.
-Trial 181: Optimal value of 19.6826 has been reached. Time taken: 6 microseconds.
-Trial 182: Optimal value of 25.1467 has been reached. Time taken: 6 microseconds.
-Trial 183: Optimal value of 14.3146 has been reached. Time taken: 7 microseconds.
-Trial 184: Optimal value of 36.7091 has been reached. Time taken: 15 microseconds.
-Trial 185: Optimal value of 14.2942 has been reached. Time taken: 6 microseconds.
-Trial 186: Optimal value of 28.1951 has been reached. Time taken: 9 microseconds.
-Trial 187: Optimal value of 20.6702 has been reached. Time taken: 7 microseconds.
-Trial 188: Optimal value of 14.8522 has been reached. Time taken: 6 microseconds.
-Trial 189: Optimal value of 20.4643 has been reached. Time taken: 6 microseconds.
-Trial 190: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 191: Optimal value of 9.08719 has been reached. Time taken: 6 microseconds.
-Trial 192: Optimal value of 9.88123 has been reached. Time taken: 6 microseconds.
-Trial 193: Optimal value of 11.9738 has been reached. Time taken: 6 microseconds.
-Trial 194: Optimal value of 12.1327 has been reached. Time taken: 8 microseconds.
-Trial 195: Optimal value of 32.1818 has been reached. Time taken: 9 microseconds.
-Trial 196: Optimal value of 31.451 has been reached. Time taken: 10 microseconds.
-Trial 197: Optimal value of 20.6702 has been reached. Time taken: 8 microseconds.
-Trial 198: Optimal value of 23.6018 has been reached. Time taken: 7 microseconds.
-Trial 199: Optimal value of 24.2422 has been reached. Time taken: 9 microseconds.
-Trial 200: Optimal value of 7.89752 has been reached. Time taken: 5 microseconds.
-Trial 201: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 202: Optimal value of 20.4643 has been reached. Time taken: 7 microseconds.
-Trial 203: Optimal value of 13.6394 has been reached. Time taken: 5 microseconds.
-Trial 204: Optimal value of 27.4595 has been reached. Time taken: 7 microseconds.
-Trial 205: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 206: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 207: Optimal value of 21.7592 has been reached. Time taken: 5 microseconds.
-Trial 208: Optimal value of 13.6394 has been reached. Time taken: 5 microseconds.
-Trial 209: Optimal value of 14.5009 has been reached. Time taken: 5 microseconds.
-Trial 210: Optimal value of 21.7412 has been reached. Time taken: 3 microseconds.
-Trial 211: Optimal value of 17.9382 has been reached. Time taken: 3 microseconds.
-Trial 212: Optimal value of 12.9777 has been reached. Time taken: 4 microseconds.
-Trial 213: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 214: Optimal value of 14.4495 has been reached. Time taken: 4 microseconds.
-Trial 215: Optimal value of 30.0242 has been reached. Time taken: 4 microseconds.
-Trial 216: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 217: Optimal value of 16.8838 has been reached. Time taken: 3 microseconds.
-Trial 218: Optimal value of 25.5463 has been reached. Time taken: 7 microseconds.
-Trial 219: Optimal value of 17.2475 has been reached. Time taken: 4 microseconds.
-Trial 220: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 221: Optimal value of 18.4183 has been reached. Time taken: 4 microseconds.
-Trial 222: Optimal value of 35.6324 has been reached. Time taken: 7 microseconds.
-Trial 223: Optimal value of 22.3481 has been reached. Time taken: 5 microseconds.
-Trial 224: Optimal value of 20.6821 has been reached. Time taken: 3 microseconds.
-Trial 225: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 226: Optimal value of 12.3661 has been reached. Time taken: 3 microseconds.
-Trial 227: Optimal value of 21.554 has been reached. Time taken: 5 microseconds.
-Trial 228: Optimal value of 33.7867 has been reached. Time taken: 7 microseconds.
-Trial 229: Optimal value of 36.2137 has been reached. Time taken: 6 microseconds.
-Trial 230: Optimal value of 27.4595 has been reached. Time taken: 6 microseconds.
-Trial 231: Optimal value of 14.7737 has been reached. Time taken: 3 microseconds.
-Trial 232: Optimal value of 33.6281 has been reached. Time taken: 5 microseconds.
-Trial 233: Optimal value of 26.3634 has been reached. Time taken: 7 microseconds.
-Trial 234: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 235: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 236: Optimal value of 36.3926 has been reached. Time taken: 6 microseconds.
-Trial 237: Optimal value of 23.1578 has been reached. Time taken: 4 microseconds.
-Trial 238: Optimal value of 31.4352 has been reached. Time taken: 6 microseconds.
-Trial 239: Optimal value of 10.6416 has been reached. Time taken: 5 microseconds.
-Trial 240: Optimal value of 18.8344 has been reached. Time taken: 4 microseconds.
-Trial 241: Optimal value of 14.902 has been reached. Time taken: 4 microseconds.
-Trial 242: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 243: Optimal value of 20.4643 has been reached. Time taken: 5 microseconds.
-Trial 244: Optimal value of 18.406 has been reached. Time taken: 3 microseconds.
-Trial 245: Optimal value of 20.4643 has been reached. Time taken: 7 microseconds.
-Trial 246: Optimal value of 8.8084 has been reached. Time taken: 2 microseconds.
-Trial 247: Optimal value of 32.1818 has been reached. Time taken: 5 microseconds.
-Trial 248: Optimal value of 31.6608 has been reached. Time taken: 5 microseconds.
-Trial 249: Optimal value of 10.1681 has been reached. Time taken: 3 microseconds.
-Trial 250: Optimal value of 42.1804 has been reached. Time taken: 8 microseconds.
-Trial 251: Optimal value of 14.5009 has been reached. Time taken: 4 microseconds.
-Trial 252: Optimal value of 15.9834 has been reached. Time taken: 4 microseconds.
-Trial 253: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 254: Optimal value of 4.93998 has been reached. Time taken: 4 microseconds.
-Trial 255: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 256: Optimal value of 26.4107 has been reached. Time taken: 5 microseconds.
-Trial 257: Optimal value of 26.0841 has been reached. Time taken: 3 microseconds.
-Trial 258: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 259: Optimal value of 9.39461 has been reached. Time taken: 5 microseconds.
-Trial 260: Optimal value of 5.41375 has been reached. Time taken: 5 microseconds.
-Trial 261: Optimal value of 17.4687 has been reached. Time taken: 5 microseconds.
-Trial 262: Optimal value of 36.2137 has been reached. Time taken: 6 microseconds.
-Trial 263: Optimal value of 10.6416 has been reached. Time taken: 3 microseconds.
-Trial 264: Optimal value of 14.902 has been reached. Time taken: 5 microseconds.
-Trial 265: Optimal value of 16.5688 has been reached. Time taken: 5 microseconds.
-Trial 266: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 267: Optimal value of 26.0758 has been reached. Time taken: 5 microseconds.
-Trial 268: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 269: Optimal value of 17.9541 has been reached. Time taken: 4 microseconds.
-Trial 270: Optimal value of 23.5535 has been reached. Time taken: 3 microseconds.
-Trial 271: Optimal value of 41.5591 has been reached. Time taken: 6 microseconds.
-Trial 272: Optimal value of 12.4668 has been reached. Time taken: 4 microseconds.
-Trial 273: Optimal value of 17.4687 has been reached. Time taken: 4 microseconds.
-Trial 274: Optimal value of 20.6821 has been reached. Time taken: 3 microseconds.
-Trial 275: Optimal value of 18.9684 has been reached. Time taken: 4 microseconds.
-Trial 276: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 277: Optimal value of 17.9541 has been reached. Time taken: 4 microseconds.
-Trial 278: Optimal value of 32.6555 has been reached. Time taken: 6 microseconds.
-Trial 279: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 280: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 281: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 282: Optimal value of 28.0179 has been reached. Time taken: 4 microseconds.
-Trial 283: Optimal value of 15.896 has been reached. Time taken: 3 microseconds.
-Trial 284: Optimal value of 14.618 has been reached. Time taken: 4 microseconds.
-Trial 285: Optimal value of 18.0768 has been reached. Time taken: 3 microseconds.
-Trial 286: Optimal value of 35.7997 has been reached. Time taken: 7 microseconds.
-Trial 287: Optimal value of 26.0758 has been reached. Time taken: 5 microseconds.
-Trial 288: Optimal value of 41.5591 has been reached. Time taken: 6 microseconds.
-Trial 289: Optimal value of 6.61293 has been reached. Time taken: 2 microseconds.
-Trial 290: Optimal value of 19.1933 has been reached. Time taken: 3 microseconds.
-Trial 291: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 292: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 293: Optimal value of 16.6725 has been reached. Time taken: 4 microseconds.
-Trial 294: Optimal value of 37.72 has been reached. Time taken: 8 microseconds.
-Trial 295: Optimal value of 35.7997 has been reached. Time taken: 7 microseconds.
-Trial 296: Optimal value of 21.7412 has been reached. Time taken: 4 microseconds.
-Trial 297: Optimal value of 35.7997 has been reached. Time taken: 6 microseconds.
-Trial 298: Optimal value of 31.9759 has been reached. Time taken: 6 microseconds.
-Trial 299: Optimal value of 17.4793 has been reached. Time taken: 3 microseconds.
-Trial 300: Optimal value of 25.0585 has been reached. Time taken: 3 microseconds.
-Trial 301: Optimal value of 31.9759 has been reached. Time taken: 5 microseconds.
-Trial 302: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 303: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 304: Optimal value of 17.8603 has been reached. Time taken: 4 microseconds.
-Trial 305: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 306: Optimal value of 28.1063 has been reached. Time taken: 5 microseconds.
-Trial 307: Optimal value of 26.3322 has been reached. Time taken: 5 microseconds.
-Trial 308: Optimal value of 12.4668 has been reached. Time taken: 3 microseconds.
-Trial 309: Optimal value of 20.6702 has been reached. Time taken: 5 microseconds.
-Trial 310: Optimal value of 13.902 has been reached. Time taken: 2 microseconds.
-Trial 311: Optimal value of 4.41388 has been reached. Time taken: 4 microseconds.
-Trial 312: Optimal value of 33.6281 has been reached. Time taken: 17 microseconds.
-Trial 313: Optimal value of 21.9881 has been reached. Time taken: 5 microseconds.
-Trial 314: Optimal value of 18.0768 has been reached. Time taken: 3 microseconds.
-Trial 315: Optimal value of 14.6431 has been reached. Time taken: 3 microseconds.
-Trial 316: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 317: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 318: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 319: Optimal value of 21.554 has been reached. Time taken: 5 microseconds.
-Trial 320: Optimal value of 27.1772 has been reached. Time taken: 5 microseconds.
-Trial 321: Optimal value of 37.7366 has been reached. Time taken: 5 microseconds.
-Trial 322: Optimal value of 12.8348 has been reached. Time taken: 4 microseconds.
-Trial 323: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 324: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 325: Optimal value of 21.554 has been reached. Time taken: 4 microseconds.
-Trial 326: Optimal value of 11.2497 has been reached. Time taken: 3 microseconds.
-Trial 327: Optimal value of 18.6825 has been reached. Time taken: 5 microseconds.
-Trial 328: Optimal value of 12.6983 has been reached. Time taken: 2 microseconds.
-Trial 329: Optimal value of 26.0758 has been reached. Time taken: 6 microseconds.
-Trial 330: Optimal value of 19.6894 has been reached. Time taken: 5 microseconds.
-Trial 331: Optimal value of 10.3922 has been reached. Time taken: 3 microseconds.
-Trial 332: Optimal value of 17.6942 has been reached. Time taken: 2 microseconds.
-Trial 333: Optimal value of 30.0242 has been reached. Time taken: 5 microseconds.
-Trial 334: Optimal value of 19.2452 has been reached. Time taken: 4 microseconds.
-Trial 335: Optimal value of 26.3634 has been reached. Time taken: 7 microseconds.
-Trial 336: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 337: Optimal value of 24.2495 has been reached. Time taken: 6 microseconds.
-Trial 338: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 339: Optimal value of 7.21876 has been reached. Time taken: 3 microseconds.
-Trial 340: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 341: Optimal value of 15.0772 has been reached. Time taken: 4 microseconds.
-Trial 342: Optimal value of 10.4579 has been reached. Time taken: 2 microseconds.
-Trial 343: Optimal value of 3.28904 has been reached. Time taken: 3 microseconds.
-Trial 344: Optimal value of 15.2489 has been reached. Time taken: 7 microseconds.
-Trial 345: Optimal value of 27.1772 has been reached. Time taken: 6 microseconds.
-Trial 346: Optimal value of 14.7737 has been reached. Time taken: 4 microseconds.
-Trial 347: Optimal value of 42.1804 has been reached. Time taken: 10 microseconds.
-Trial 348: Optimal value of 25.5463 has been reached. Time taken: 6 microseconds.
-Trial 349: Optimal value of 23.1249 has been reached. Time taken: 4 microseconds.
-Trial 350: Optimal value of 25.1467 has been reached. Time taken: 11 microseconds.
-Trial 351: Optimal value of 23.0815 has been reached. Time taken: 5 microseconds.
-Trial 352: Optimal value of 9.08719 has been reached. Time taken: 4 microseconds.
-Trial 353: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 354: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 355: Optimal value of 19.6501 has been reached. Time taken: 3 microseconds.
-Trial 356: Optimal value of 6.33332 has been reached. Time taken: 3 microseconds.
-Trial 357: Optimal value of 19.905 has been reached. Time taken: 4 microseconds.
-Trial 358: Optimal value of 12.3661 has been reached. Time taken: 1692 microseconds.
-Trial 359: Optimal value of 16.2703 has been reached. Time taken: 6 microseconds.
-Trial 360: Optimal value of 26.3634 has been reached. Time taken: 10 microseconds.
-Trial 361: Optimal value of 18.9582 has been reached. Time taken: 5 microseconds.
-Trial 362: Optimal value of 12.0627 has been reached. Time taken: 4 microseconds.
-Trial 363: Optimal value of 42.1804 has been reached. Time taken: 20 microseconds.
-Trial 364: Optimal value of 37.6275 has been reached. Time taken: 11 microseconds.
-Trial 365: Optimal value of 22.3481 has been reached. Time taken: 7 microseconds.
-Trial 366: Optimal value of 22.3481 has been reached. Time taken: 8 microseconds.
-Trial 367: Optimal value of 20.1928 has been reached. Time taken: 6 microseconds.
-Trial 368: Optimal value of 37.7366 has been reached. Time taken: 7 microseconds.
-Trial 369: Optimal value of 19.0513 has been reached. Time taken: 4 microseconds.
-Trial 370: Optimal value of 20.6702 has been reached. Time taken: 5 microseconds.
-Trial 371: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 372: Optimal value of 26.3634 has been reached. Time taken: 8 microseconds.
-Trial 373: Optimal value of 26.0758 has been reached. Time taken: 7 microseconds.
-Trial 374: Optimal value of 11.2547 has been reached. Time taken: 4 microseconds.
-Trial 375: Optimal value of 19.7524 has been reached. Time taken: 4 microseconds.
-Trial 376: Optimal value of 28.0179 has been reached. Time taken: 8 microseconds.
-Trial 377: Optimal value of 9.84756 has been reached. Time taken: 4 microseconds.
-Trial 378: Optimal value of 18.9684 has been reached. Time taken: 12 microseconds.
-Trial 379: Optimal value of 18.9684 has been reached. Time taken: 6 microseconds.
-Trial 380: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 381: Optimal value of 12.4668 has been reached. Time taken: 5 microseconds.
-Trial 382: Optimal value of 24.2422 has been reached. Time taken: 7 microseconds.
-Trial 383: Optimal value of 28.1063 has been reached. Time taken: 11 microseconds.
-Trial 384: Optimal value of 19.5963 has been reached. Time taken: 6 microseconds.
-Trial 385: Optimal value of 24.1466 has been reached. Time taken: 7 microseconds.
-Trial 386: Optimal value of 14.4602 has been reached. Time taken: 6 microseconds.
-Trial 387: Optimal value of 18.406 has been reached. Time taken: 6 microseconds.
-Trial 388: Optimal value of 20.4643 has been reached. Time taken: 6 microseconds.
-Trial 389: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 390: Optimal value of 20.6702 has been reached. Time taken: 6 microseconds.
-Trial 391: Optimal value of 18.9684 has been reached. Time taken: 6 microseconds.
-Trial 392: Optimal value of 13.5881 has been reached. Time taken: 9 microseconds.
-Trial 393: Optimal value of 25.32 has been reached. Time taken: 10 microseconds.
-Trial 394: Optimal value of 41.5591 has been reached. Time taken: 15 microseconds.
-Trial 395: Optimal value of 21.4927 has been reached. Time taken: 8 microseconds.
-Trial 396: Optimal value of 33.2208 has been reached. Time taken: 14 microseconds.
-Trial 397: Optimal value of 24.2422 has been reached. Time taken: 7 microseconds.
-Trial 398: Optimal value of 23.0815 has been reached. Time taken: 7 microseconds.
-Trial 399: Optimal value of 42.1804 has been reached. Time taken: 16 microseconds.
-Trial 400: Optimal value of 19.4511 has been reached. Time taken: 6 microseconds.
-Trial 401: Optimal value of 31.4352 has been reached. Time taken: 8 microseconds.
-Trial 402: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 403: Optimal value of 22.6349 has been reached. Time taken: 5 microseconds.
-Trial 404: Optimal value of 19.8777 has been reached. Time taken: 3 microseconds.
-Trial 405: Optimal value of 24.3822 has been reached. Time taken: 4 microseconds.
-Trial 406: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 407: Optimal value of 26.0841 has been reached. Time taken: 3 microseconds.
-Trial 408: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 409: Optimal value of 13.902 has been reached. Time taken: 3 microseconds.
-Trial 410: Optimal value of 33.0881 has been reached. Time taken: 5 microseconds.
-Trial 411: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 412: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 413: Optimal value of 19.4511 has been reached. Time taken: 5 microseconds.
-Trial 414: Optimal value of 20.1401 has been reached. Time taken: 3 microseconds.
-Trial 415: Optimal value of 35.6324 has been reached. Time taken: 8 microseconds.
-Trial 416: Optimal value of 13.6394 has been reached. Time taken: 2 microseconds.
-Trial 417: Optimal value of 14.7026 has been reached. Time taken: 6 microseconds.
-Trial 418: Optimal value of 28.0179 has been reached. Time taken: 5 microseconds.
-Trial 419: Optimal value of 26.7864 has been reached. Time taken: 4 microseconds.
-Trial 420: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 421: Optimal value of 21.7412 has been reached. Time taken: 4 microseconds.
-Trial 422: Optimal value of 25.1467 has been reached. Time taken: 3 microseconds.
-Trial 423: Optimal value of 42.1804 has been reached. Time taken: 9 microseconds.
-Trial 424: Optimal value of 9.13684 has been reached. Time taken: 3 microseconds.
-Trial 425: Optimal value of 25.0585 has been reached. Time taken: 3 microseconds.
-Trial 426: Optimal value of 15.0252 has been reached. Time taken: 4 microseconds.
-Trial 427: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 428: Optimal value of 16.7611 has been reached. Time taken: 3 microseconds.
-Trial 429: Optimal value of 35.6324 has been reached. Time taken: 6 microseconds.
-Trial 430: Optimal value of 15.6337 has been reached. Time taken: 3 microseconds.
-Trial 431: Optimal value of 17.8603 has been reached. Time taken: 3 microseconds.
-Trial 432: Optimal value of 26.4107 has been reached. Time taken: 5 microseconds.
-Trial 433: Optimal value of 10.5285 has been reached. Time taken: 4 microseconds.
-Trial 434: Optimal value of 28.0179 has been reached. Time taken: 5 microseconds.
-Trial 435: Optimal value of 14.2072 has been reached. Time taken: 4 microseconds.
-Trial 436: Optimal value of 16.4511 has been reached. Time taken: 3 microseconds.
-Trial 437: Optimal value of 37.6275 has been reached. Time taken: 8 microseconds.
-Trial 438: Optimal value of 13.2873 has been reached. Time taken: 3 microseconds.
-Trial 439: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 440: Optimal value of 6.09972 has been reached. Time taken: 3 microseconds.
-Trial 441: Optimal value of 19.6501 has been reached. Time taken: 4 microseconds.
-Trial 442: Optimal value of 16.4654 has been reached. Time taken: 4 microseconds.
-Trial 443: Optimal value of 28.1951 has been reached. Time taken: 5 microseconds.
-Trial 444: Optimal value of 30.0585 has been reached. Time taken: 6 microseconds.
-Trial 445: Optimal value of 26.4107 has been reached. Time taken: 4 microseconds.
-Trial 446: Optimal value of 19.4511 has been reached. Time taken: 3 microseconds.
-Trial 447: Optimal value of 19.463 has been reached. Time taken: 3 microseconds.
-Trial 448: Optimal value of 15.4687 has been reached. Time taken: 2 microseconds.
-Trial 449: Optimal value of 42.1804 has been reached. Time taken: 8 microseconds.
-Trial 450: Optimal value of 16.7611 has been reached. Time taken: 3 microseconds.
-Trial 451: Optimal value of 20.6581 has been reached. Time taken: 2 microseconds.
-Trial 452: Optimal value of 33.2208 has been reached. Time taken: 8 microseconds.
-Trial 453: Optimal value of 20.6702 has been reached. Time taken: 16 microseconds.
-Trial 454: Optimal value of 36.7091 has been reached. Time taken: 6 microseconds.
-Trial 455: Optimal value of 37.7366 has been reached. Time taken: 4 microseconds.
-Trial 456: Optimal value of 13.2873 has been reached. Time taken: 3 microseconds.
-Trial 457: Optimal value of 33.7856 has been reached. Time taken: 4 microseconds.
-Trial 458: Optimal value of 23.9779 has been reached. Time taken: 3 microseconds.
-Trial 459: Optimal value of 21.7592 has been reached. Time taken: 5 microseconds.
-Trial 460: Optimal value of 17.6942 has been reached. Time taken: 3 microseconds.
-Trial 461: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 462: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 463: Optimal value of 19.2452 has been reached. Time taken: 3 microseconds.
-Trial 464: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 465: Optimal value of 19.7435 has been reached. Time taken: 4 microseconds.
-Trial 466: Optimal value of 19.7082 has been reached. Time taken: 5 microseconds.
-Trial 467: Optimal value of 17.7475 has been reached. Time taken: 4 microseconds.
-Trial 468: Optimal value of 14.9613 has been reached. Time taken: 4 microseconds.
-Trial 469: Optimal value of 22.9554 has been reached. Time taken: 4 microseconds.
-Trial 470: Optimal value of 20.4643 has been reached. Time taken: 5 microseconds.
-Trial 471: Optimal value of 25.5463 has been reached. Time taken: 6 microseconds.
-Trial 472: Optimal value of 7.21876 has been reached. Time taken: 3 microseconds.
-Trial 473: Optimal value of 42.1804 has been reached. Time taken: 10 microseconds.
-Trial 474: Optimal value of 5.35501 has been reached. Time taken: 7 microseconds.
-Trial 475: Optimal value of 36.7091 has been reached. Time taken: 8 microseconds.
-Trial 476: Optimal value of 16.18 has been reached. Time taken: 2 microseconds.
-Trial 477: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 478: Optimal value of 39.2042 has been reached. Time taken: 6 microseconds.
-Trial 479: Optimal value of 32.6555 has been reached. Time taken: 6 microseconds.
-Trial 480: Optimal value of 5.65957 has been reached. Time taken: 3 microseconds.
-Trial 481: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 482: Optimal value of 18.8173 has been reached. Time taken: 3 microseconds.
-Trial 483: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 484: Optimal value of 29.8393 has been reached. Time taken: 6 microseconds.
-Trial 485: Optimal value of 14.3146 has been reached. Time taken: 4 microseconds.
-Trial 486: Optimal value of 26.0841 has been reached. Time taken: 4 microseconds.
-Trial 487: Optimal value of 32.1562 has been reached. Time taken: 5 microseconds.
-Trial 488: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 489: Optimal value of 27.1772 has been reached. Time taken: 5 microseconds.
-Trial 490: Optimal value of 19.0335 has been reached. Time taken: 3 microseconds.
-Trial 491: Optimal value of 39.2042 has been reached. Time taken: 4 microseconds.
-Trial 492: Optimal value of 32.1613 has been reached. Time taken: 6 microseconds.
-Trial 493: Optimal value of 22.6349 has been reached. Time taken: 4 microseconds.
-Trial 494: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 495: Optimal value of 23.576 has been reached. Time taken: 4 microseconds.
-Trial 496: Optimal value of 13.6394 has been reached. Time taken: 9 microseconds.
-Trial 497: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 498: Optimal value of 42.1804 has been reached. Time taken: 8 microseconds.
-Trial 499: Optimal value of 21.1703 has been reached. Time taken: 3 microseconds.
-Trial 500: Optimal value of 18.9684 has been reached. Time taken: 3 microseconds.
-Trial 501: Optimal value of 28.1951 has been reached. Time taken: 5 microseconds.
-Trial 502: Optimal value of 32.1613 has been reached. Time taken: 6 microseconds.
-Trial 503: Optimal value of 33.7867 has been reached. Time taken: 6 microseconds.
-Trial 504: Optimal value of 32.1562 has been reached. Time taken: 7 microseconds.
-Trial 505: Optimal value of 15.3452 has been reached. Time taken: 4 microseconds.
-Trial 506: Optimal value of 12.1327 has been reached. Time taken: 4 microseconds.
-Trial 507: Optimal value of 17.0976 has been reached. Time taken: 4 microseconds.
-Trial 508: Optimal value of 17.7475 has been reached. Time taken: 3 microseconds.
-Trial 509: Optimal value of 17.4687 has been reached. Time taken: 4 microseconds.
-Trial 510: Optimal value of 42.1804 has been reached. Time taken: 14 microseconds.
-Trial 511: Optimal value of 20.9048 has been reached. Time taken: 5 microseconds.
-Trial 512: Optimal value of 18.4798 has been reached. Time taken: 4 microseconds.
-Trial 513: Optimal value of 14.6519 has been reached. Time taken: 3 microseconds.
-Trial 514: Optimal value of 32.6555 has been reached. Time taken: 8 microseconds.
-Trial 515: Optimal value of 28.1063 has been reached. Time taken: 7 microseconds.
-Trial 516: Optimal value of 14.3344 has been reached. Time taken: 3 microseconds.
-Trial 517: Optimal value of 18.8748 has been reached. Time taken: 3 microseconds.
-Trial 518: Optimal value of 17.3418 has been reached. Time taken: 4 microseconds.
-Trial 519: Optimal value of 14.5292 has been reached. Time taken: 9 microseconds.
-Trial 520: Optimal value of 11.3922 has been reached. Time taken: 4 microseconds.
-Trial 521: Optimal value of 16.3933 has been reached. Time taken: 4 microseconds.
-Trial 522: Optimal value of 19.2452 has been reached. Time taken: 3 microseconds.
-Trial 523: Optimal value of 27.4266 has been reached. Time taken: 7 microseconds.
-Trial 524: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 525: Optimal value of 16.4671 has been reached. Time taken: 5 microseconds.
-Trial 526: Optimal value of 36.7091 has been reached. Time taken: 9 microseconds.
-Trial 527: Optimal value of 33.2208 has been reached. Time taken: 8 microseconds.
-Trial 528: Optimal value of 30.0242 has been reached. Time taken: 4 microseconds.
-Trial 529: Optimal value of 12.3661 has been reached. Time taken: 5 microseconds.
-Trial 530: Optimal value of 36.7091 has been reached. Time taken: 10 microseconds.
-Trial 531: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 532: Optimal value of 24.1466 has been reached. Time taken: 6 microseconds.
-Trial 533: Optimal value of 23.0815 has been reached. Time taken: 5 microseconds.
-Trial 534: Optimal value of 14.1382 has been reached. Time taken: 4 microseconds.
-Trial 535: Optimal value of 16.7611 has been reached. Time taken: 5 microseconds.
-Trial 536: Optimal value of 28.4237 has been reached. Time taken: 6 microseconds.
-Trial 537: Optimal value of 32.245 has been reached. Time taken: 7 microseconds.
-Trial 538: Optimal value of 20.4643 has been reached. Time taken: 5 microseconds.
-Trial 539: Optimal value of 33.2208 has been reached. Time taken: 9 microseconds.
-Trial 540: Optimal value of 22.3637 has been reached. Time taken: 6 microseconds.
-Trial 541: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 542: Optimal value of 17.6942 has been reached. Time taken: 2 microseconds.
-Trial 543: Optimal value of 32.1613 has been reached. Time taken: 6 microseconds.
-Trial 544: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 545: Optimal value of 26.3634 has been reached. Time taken: 5 microseconds.
-Trial 546: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 547: Optimal value of 35.6324 has been reached. Time taken: 7 microseconds.
-Trial 548: Optimal value of 24.3822 has been reached. Time taken: 4 microseconds.
-Trial 549: Optimal value of 18.1468 has been reached. Time taken: 3 microseconds.
-Trial 550: Optimal value of 16.5688 has been reached. Time taken: 2 microseconds.
-Trial 551: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 552: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 553: Optimal value of 21.3762 has been reached. Time taken: 4 microseconds.
-Trial 554: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 555: Optimal value of 18.7553 has been reached. Time taken: 3 microseconds.
-Trial 556: Optimal value of 14.3146 has been reached. Time taken: 3 microseconds.
-Trial 557: Optimal value of 17.7748 has been reached. Time taken: 4 microseconds.
-Trial 558: Optimal value of 13.6394 has been reached. Time taken: 5 microseconds.
-Trial 559: Optimal value of 13.0425 has been reached. Time taken: 4 microseconds.
-Trial 560: Optimal value of 9.88123 has been reached. Time taken: 4 microseconds.
-Trial 561: Optimal value of 8.7165 has been reached. Time taken: 3 microseconds.
-Trial 562: Optimal value of 37.72 has been reached. Time taken: 7 microseconds.
-Trial 563: Optimal value of 19.6501 has been reached. Time taken: 3 microseconds.
-Trial 564: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 565: Optimal value of 19.3499 has been reached. Time taken: 3 microseconds.
-Trial 566: Optimal value of 26.4107 has been reached. Time taken: 5 microseconds.
-Trial 567: Optimal value of 30.0585 has been reached. Time taken: 7 microseconds.
-Trial 568: Optimal value of 26.3634 has been reached. Time taken: 5 microseconds.
-Trial 569: Optimal value of 32.956 has been reached. Time taken: 7 microseconds.
-Trial 570: Optimal value of 28.1063 has been reached. Time taken: 5 microseconds.
-Trial 571: Optimal value of 16.3933 has been reached. Time taken: 3 microseconds.
-Trial 572: Optimal value of 12.3661 has been reached. Time taken: 3 microseconds.
-Trial 573: Optimal value of 21.7412 has been reached. Time taken: 3 microseconds.
-Trial 574: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 575: Optimal value of 26.0841 has been reached. Time taken: 4 microseconds.
-Trial 576: Optimal value of 28.1951 has been reached. Time taken: 5 microseconds.
-Trial 577: Optimal value of 16.5688 has been reached. Time taken: 4 microseconds.
-Trial 578: Optimal value of 5.70067 has been reached. Time taken: 3 microseconds.
-Trial 579: Optimal value of 33.7867 has been reached. Time taken: 6 microseconds.
-Trial 580: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 581: Optimal value of 21.7412 has been reached. Time taken: 5 microseconds.
-Trial 582: Optimal value of 22.5729 has been reached. Time taken: 4 microseconds.
-Trial 583: Optimal value of 21.0976 has been reached. Time taken: 4 microseconds.
-Trial 584: Optimal value of 14.7026 has been reached. Time taken: 3 microseconds.
-Trial 585: Optimal value of 26.0758 has been reached. Time taken: 4 microseconds.
-Trial 586: Optimal value of 28.0179 has been reached. Time taken: 4 microseconds.
-Trial 587: Optimal value of 14.5009 has been reached. Time taken: 4 microseconds.
-Trial 588: Optimal value of 19.69 has been reached. Time taken: 4 microseconds.
-Trial 589: Optimal value of 15.0437 has been reached. Time taken: 3 microseconds.
-Trial 590: Optimal value of 16.3933 has been reached. Time taken: 4 microseconds.
-Trial 591: Optimal value of 13.7135 has been reached. Time taken: 3 microseconds.
-Trial 592: Optimal value of 36.2137 has been reached. Time taken: 6 microseconds.
-Trial 593: Optimal value of 41.5591 has been reached. Time taken: 7 microseconds.
-Trial 594: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 595: Optimal value of 13.9446 has been reached. Time taken: 4 microseconds.
-Trial 596: Optimal value of 22.3637 has been reached. Time taken: 4 microseconds.
-Trial 597: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 598: Optimal value of 26.7864 has been reached. Time taken: 4 microseconds.
-Trial 599: Optimal value of 29.8393 has been reached. Time taken: 5 microseconds.
-Trial 600: Optimal value of 15.6037 has been reached. Time taken: 3 microseconds.
-Trial 601: Optimal value of 15.3128 has been reached. Time taken: 2 microseconds.
-Trial 602: Optimal value of 7.12393 has been reached. Time taken: 3 microseconds.
-Trial 603: Optimal value of 19.463 has been reached. Time taken: 3 microseconds.
-Trial 604: Optimal value of 15.2489 has been reached. Time taken: 3 microseconds.
-Trial 605: Optimal value of 18.7553 has been reached. Time taken: 2 microseconds.
-Trial 606: Optimal value of 19.9674 has been reached. Time taken: 3 microseconds.
-Trial 607: Optimal value of 12.3661 has been reached. Time taken: 2 microseconds.
-Trial 608: Optimal value of 12.3661 has been reached. Time taken: 5 microseconds.
-Trial 609: Optimal value of 16.9074 has been reached. Time taken: 3 microseconds.
-Trial 610: Optimal value of 15.6037 has been reached. Time taken: 3 microseconds.
-Trial 611: Optimal value of 18.1468 has been reached. Time taken: 3 microseconds.
-Trial 612: Optimal value of 19.463 has been reached. Time taken: 3 microseconds.
-Trial 613: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 614: Optimal value of 14.3146 has been reached. Time taken: 3 microseconds.
-Trial 615: Optimal value of 11.6456 has been reached. Time taken: 3 microseconds.
-Trial 616: Optimal value of 9.88123 has been reached. Time taken: 3 microseconds.
-Trial 617: Optimal value of 33.0881 has been reached. Time taken: 4 microseconds.
-Trial 618: Optimal value of 19.2452 has been reached. Time taken: 3 microseconds.
-Trial 619: Optimal value of 19.9214 has been reached. Time taken: 3 microseconds.
-Trial 620: Optimal value of 18.9971 has been reached. Time taken: 2 microseconds.
-Trial 621: Optimal value of 7.21876 has been reached. Time taken: 4 microseconds.
-Trial 622: Optimal value of 19.5319 has been reached. Time taken: 2 microseconds.
-Trial 623: Optimal value of 15.7352 has been reached. Time taken: 3 microseconds.
-Trial 624: Optimal value of 17.9382 has been reached. Time taken: 4 microseconds.
-Trial 625: Optimal value of 24.2495 has been reached. Time taken: 3 microseconds.
-Trial 626: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 627: Optimal value of 16.5688 has been reached. Time taken: 3 microseconds.
-Trial 628: Optimal value of 19.1246 has been reached. Time taken: 2 microseconds.
-Trial 629: Optimal value of 9.834 has been reached. Time taken: 3 microseconds.
-Trial 630: Optimal value of 14.3146 has been reached. Time taken: 3 microseconds.
-Trial 631: Optimal value of 20.9048 has been reached. Time taken: 5 microseconds.
-Trial 632: Optimal value of 28.4237 has been reached. Time taken: 4 microseconds.
-Trial 633: Optimal value of 17.8603 has been reached. Time taken: 3 microseconds.
-Trial 634: Optimal value of 19.2452 has been reached. Time taken: 3 microseconds.
-Trial 635: Optimal value of 16.3933 has been reached. Time taken: 3 microseconds.
-Trial 636: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 637: Optimal value of 7.21876 has been reached. Time taken: 4 microseconds.
-Trial 638: Optimal value of 41.5591 has been reached. Time taken: 6 microseconds.
-Trial 639: Optimal value of 37.6275 has been reached. Time taken: 6 microseconds.
-Trial 640: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 641: Optimal value of 16.3933 has been reached. Time taken: 3 microseconds.
-Trial 642: Optimal value of 15.8838 has been reached. Time taken: 3 microseconds.
-Trial 643: Optimal value of 15.3775 has been reached. Time taken: 3 microseconds.
-Trial 644: Optimal value of 18.4798 has been reached. Time taken: 3 microseconds.
-Trial 645: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 646: Optimal value of 42.1804 has been reached. Time taken: 10 microseconds.
-Trial 647: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 648: Optimal value of 13.3652 has been reached. Time taken: 4 microseconds.
-Trial 649: Optimal value of 19.8193 has been reached. Time taken: 3 microseconds.
-Trial 650: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 651: Optimal value of 16.18 has been reached. Time taken: 3 microseconds.
-Trial 652: Optimal value of 37.72 has been reached. Time taken: 6 microseconds.
-Trial 653: Optimal value of 11.9715 has been reached. Time taken: 3 microseconds.
-Trial 654: Optimal value of 12.3661 has been reached. Time taken: 3 microseconds.
-Trial 655: Optimal value of 33.0881 has been reached. Time taken: 5 microseconds.
-Trial 656: Optimal value of 12.3661 has been reached. Time taken: 2 microseconds.
-Trial 657: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 658: Optimal value of 18.9684 has been reached. Time taken: 3 microseconds.
-Trial 659: Optimal value of 24.2422 has been reached. Time taken: 35826 microseconds.
-Trial 660: Optimal value of 26.3634 has been reached. Time taken: 8 microseconds.
-Trial 661: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 662: Optimal value of 10.6989 has been reached. Time taken: 2 microseconds.
-Trial 663: Optimal value of 25.1035 has been reached. Time taken: 4 microseconds.
-Trial 664: Optimal value of 26.7864 has been reached. Time taken: 4 microseconds.
-Trial 665: Optimal value of 37.7366 has been reached. Time taken: 5 microseconds.
-Trial 666: Optimal value of 27.187 has been reached. Time taken: 4 microseconds.
-Trial 667: Optimal value of 19.2452 has been reached. Time taken: 3 microseconds.
-Trial 668: Optimal value of 26.3634 has been reached. Time taken: 6 microseconds.
-Trial 669: Optimal value of 16.4511 has been reached. Time taken: 4 microseconds.
-Trial 670: Optimal value of 37.6275 has been reached. Time taken: 7 microseconds.
-Trial 671: Optimal value of 31.4352 has been reached. Time taken: 6 microseconds.
-Trial 672: Optimal value of 26.0841 has been reached. Time taken: 4 microseconds.
-Trial 673: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 674: Optimal value of 14.7026 has been reached. Time taken: 4 microseconds.
-Trial 675: Optimal value of 30.9739 has been reached. Time taken: 6 microseconds.
-Trial 676: Optimal value of 22.3481 has been reached. Time taken: 5 microseconds.
-Trial 677: Optimal value of 14.6015 has been reached. Time taken: 4 microseconds.
-Trial 678: Optimal value of 9.84756 has been reached. Time taken: 3 microseconds.
-Trial 679: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 680: Optimal value of 26.3322 has been reached. Time taken: 5 microseconds.
-Trial 681: Optimal value of 16.7853 has been reached. Time taken: 2 microseconds.
-Trial 682: Optimal value of 14.2555 has been reached. Time taken: 2 microseconds.
-Trial 683: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 684: Optimal value of 10.5285 has been reached. Time taken: 3 microseconds.
-Trial 685: Optimal value of 20.1188 has been reached. Time taken: 3 microseconds.
-Trial 686: Optimal value of 22.0783 has been reached. Time taken: 4 microseconds.
-Trial 687: Optimal value of 35.2731 has been reached. Time taken: 5 microseconds.
-Trial 688: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 689: Optimal value of 36.7091 has been reached. Time taken: 6 microseconds.
-Trial 690: Optimal value of 37.6275 has been reached. Time taken: 6 microseconds.
-Trial 691: Optimal value of 17.8603 has been reached. Time taken: 3 microseconds.
-Trial 692: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 693: Optimal value of 19.7524 has been reached. Time taken: 3 microseconds.
-Trial 694: Optimal value of 20.7721 has been reached. Time taken: 3 microseconds.
-Trial 695: Optimal value of 26.3634 has been reached. Time taken: 4 microseconds.
-Trial 696: Optimal value of 28.0179 has been reached. Time taken: 4 microseconds.
-Trial 697: Optimal value of 26.3634 has been reached. Time taken: 5 microseconds.
-Trial 698: Optimal value of 13.6394 has been reached. Time taken: 3 microseconds.
-Trial 699: Optimal value of 20.6581 has been reached. Time taken: 2 microseconds.
-Trial 700: Optimal value of 21.5155 has been reached. Time taken: 4 microseconds.
-Trial 701: Optimal value of 28.7333 has been reached. Time taken: 4 microseconds.
-Trial 702: Optimal value of 18.406 has been reached. Time taken: 7 microseconds.
-Trial 703: Optimal value of 24.1466 has been reached. Time taken: 5 microseconds.
-Trial 704: Optimal value of 22.3481 has been reached. Time taken: 5 microseconds.
-Trial 705: Optimal value of 21.7592 has been reached. Time taken: 4 microseconds.
-Trial 706: Optimal value of 42.1804 has been reached. Time taken: 11 microseconds.
-Trial 707: Optimal value of 23.5535 has been reached. Time taken: 3 microseconds.
-Trial 708: Optimal value of 42.1804 has been reached. Time taken: 7 microseconds.
-Trial 709: Optimal value of 20.1928 has been reached. Time taken: 4 microseconds.
-Trial 710: Optimal value of 24.3822 has been reached. Time taken: 4 microseconds.
-Trial 711: Optimal value of 26.0841 has been reached. Time taken: 3 microseconds.
-Trial 712: Optimal value of 36.7091 has been reached. Time taken: 6 microseconds.
-Trial 713: Optimal value of 13.4314 has been reached. Time taken: 5 microseconds.
-Trial 714: Optimal value of 42.1804 has been reached. Time taken: 9 microseconds.
-Trial 715: Optimal value of 13.6394 has been reached. Time taken: 3 microseconds.
-Trial 716: Optimal value of 35.7997 has been reached. Time taken: 8 microseconds.
-Trial 717: Optimal value of 13.6394 has been reached. Time taken: 4 microseconds.
-Trial 718: Optimal value of 8.47867 has been reached. Time taken: 3 microseconds.
-Trial 719: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 720: Optimal value of 20.4892 has been reached. Time taken: 4 microseconds.
-Trial 721: Optimal value of 17.8603 has been reached. Time taken: 4 microseconds.
-Trial 722: Optimal value of 12.4133 has been reached. Time taken: 4 microseconds.
-Trial 723: Optimal value of 17.2475 has been reached. Time taken: 4 microseconds.
-Trial 724: Optimal value of 26.0758 has been reached. Time taken: 6 microseconds.
-Trial 725: Optimal value of 14.5292 has been reached. Time taken: 4 microseconds.
-Trial 726: Optimal value of 27.4595 has been reached. Time taken: 5 microseconds.
-Trial 727: Optimal value of 14.4495 has been reached. Time taken: 4 microseconds.
-Trial 728: Optimal value of 2.36299 has been reached. Time taken: 3 microseconds.
-Trial 729: Optimal value of 9.88123 has been reached. Time taken: 4 microseconds.
-Trial 730: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 731: Optimal value of 9.08719 has been reached. Time taken: 3 microseconds.
-Trial 732: Optimal value of 32.245 has been reached. Time taken: 6 microseconds.
-Trial 733: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 734: Optimal value of 18.1468 has been reached. Time taken: 3 microseconds.
-Trial 735: Optimal value of 36.7091 has been reached. Time taken: 6 microseconds.
-Trial 736: Optimal value of 16.5464 has been reached. Time taken: 3 microseconds.
-Trial 737: Optimal value of 10.6416 has been reached. Time taken: 3 microseconds.
-Trial 738: Optimal value of 17.9382 has been reached. Time taken: 4 microseconds.
-Trial 739: Optimal value of 33.0881 has been reached. Time taken: 6 microseconds.
-Trial 740: Optimal value of 13.5269 has been reached. Time taken: 3 microseconds.
-Trial 741: Optimal value of 14.1887 has been reached. Time taken: 3 microseconds.
-Trial 742: Optimal value of 33.0881 has been reached. Time taken: 5 microseconds.
-Trial 743: Optimal value of 19.2452 has been reached. Time taken: 3 microseconds.
-Trial 744: Optimal value of 17.2475 has been reached. Time taken: 4 microseconds.
-Trial 745: Optimal value of 26.6559 has been reached. Time taken: 5 microseconds.
-Trial 746: Optimal value of 19.9214 has been reached. Time taken: 3 microseconds.
-Trial 747: Optimal value of 19.463 has been reached. Time taken: 4 microseconds.
-Trial 748: Optimal value of 25.32 has been reached. Time taken: 5 microseconds.
-Trial 749: Optimal value of 12.5735 has been reached. Time taken: 4 microseconds.
-Trial 750: Optimal value of 19.8777 has been reached. Time taken: 4 microseconds.
-Trial 751: Optimal value of 21.7412 has been reached. Time taken: 6 microseconds.
-Trial 752: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 753: Optimal value of 33.5086 has been reached. Time taken: 6 microseconds.
-Trial 754: Optimal value of 12.9884 has been reached. Time taken: 4 microseconds.
-Trial 755: Optimal value of 20.6702 has been reached. Time taken: 5 microseconds.
-Trial 756: Optimal value of 20.1928 has been reached. Time taken: 6 microseconds.
-Trial 757: Optimal value of 27.1772 has been reached. Time taken: 7 microseconds.
-Trial 758: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 759: Optimal value of 13.7423 has been reached. Time taken: 4 microseconds.
-Trial 760: Optimal value of 20.4643 has been reached. Time taken: 6 microseconds.
-Trial 761: Optimal value of 23.5535 has been reached. Time taken: 6 microseconds.
-Trial 762: Optimal value of 26.4107 has been reached. Time taken: 6 microseconds.
-Trial 763: Optimal value of 36.7091 has been reached. Time taken: 9 microseconds.
-Trial 764: Optimal value of 14.5292 has been reached. Time taken: 5 microseconds.
-Trial 765: Optimal value of 16.7611 has been reached. Time taken: 3 microseconds.
-Trial 766: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 767: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 768: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 769: Optimal value of 32.1613 has been reached. Time taken: 6 microseconds.
-Trial 770: Optimal value of 42.1804 has been reached. Time taken: 9 microseconds.
-Trial 771: Optimal value of 29.1333 has been reached. Time taken: 5 microseconds.
-Trial 772: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 773: Optimal value of 14.6037 has been reached. Time taken: 3 microseconds.
-Trial 774: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 775: Optimal value of 32.1818 has been reached. Time taken: 5 microseconds.
-Trial 776: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 777: Optimal value of 25.5463 has been reached. Time taken: 5 microseconds.
-Trial 778: Optimal value of 11.5545 has been reached. Time taken: 3 microseconds.
-Trial 779: Optimal value of 36.7091 has been reached. Time taken: 9 microseconds.
-Trial 780: Optimal value of 21.7412 has been reached. Time taken: 4 microseconds.
-Trial 781: Optimal value of 19.5319 has been reached. Time taken: 4 microseconds.
-Trial 782: Optimal value of 21.5155 has been reached. Time taken: 3 microseconds.
-Trial 783: Optimal value of 22.5729 has been reached. Time taken: 5 microseconds.
-Trial 784: Optimal value of 21.7412 has been reached. Time taken: 4 microseconds.
-Trial 785: Optimal value of 19.69 has been reached. Time taken: 4 microseconds.
-Trial 786: Optimal value of 20.3012 has been reached. Time taken: 4 microseconds.
-Trial 787: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 788: Optimal value of 13.9779 has been reached. Time taken: 4 microseconds.
-Trial 789: Optimal value of 16.3933 has been reached. Time taken: 3 microseconds.
-Trial 790: Optimal value of 23.576 has been reached. Time taken: 3 microseconds.
-Trial 791: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 792: Optimal value of 22.1395 has been reached. Time taken: 4 microseconds.
-Trial 793: Optimal value of 32.956 has been reached. Time taken: 5 microseconds.
-Trial 794: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 795: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 796: Optimal value of 16.7611 has been reached. Time taken: 4 microseconds.
-Trial 797: Optimal value of 12.8348 has been reached. Time taken: 3 microseconds.
-Trial 798: Optimal value of 14.5009 has been reached. Time taken: 4 microseconds.
-Trial 799: Optimal value of 21.0976 has been reached. Time taken: 3 microseconds.
-Trial 800: Optimal value of 14.1887 has been reached. Time taken: 7 microseconds.
-Trial 801: Optimal value of 33.1054 has been reached. Time taken: 9 microseconds.
-Trial 802: Optimal value of 14.1382 has been reached. Time taken: 6 microseconds.
-Trial 803: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 804: Optimal value of 13.435 has been reached. Time taken: 6 microseconds.
-Trial 805: Optimal value of 31.4352 has been reached. Time taken: 12 microseconds.
-Trial 806: Optimal value of 28.4237 has been reached. Time taken: 7 microseconds.
-Trial 807: Optimal value of 25.0585 has been reached. Time taken: 5 microseconds.
-Trial 808: Optimal value of 41.5591 has been reached. Time taken: 10 microseconds.
-Trial 809: Optimal value of 12.3661 has been reached. Time taken: 4 microseconds.
-Trial 810: Optimal value of 20.6702 has been reached. Time taken: 5 microseconds.
-Trial 811: Optimal value of 13.6394 has been reached. Time taken: 5 microseconds.
-Trial 812: Optimal value of 28.0179 has been reached. Time taken: 11 microseconds.
-Trial 813: Optimal value of 20.6702 has been reached. Time taken: 6 microseconds.
-Trial 814: Optimal value of 14.2057 has been reached. Time taken: 7 microseconds.
-Trial 815: Optimal value of 28.0179 has been reached. Time taken: 8 microseconds.
-Trial 816: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 817: Optimal value of 9.08719 has been reached. Time taken: 4 microseconds.
-Trial 818: Optimal value of 28.1951 has been reached. Time taken: 6 microseconds.
-Trial 819: Optimal value of 31.9759 has been reached. Time taken: 7 microseconds.
-Trial 820: Optimal value of 12.1822 has been reached. Time taken: 3 microseconds.
-Trial 821: Optimal value of 15.2489 has been reached. Time taken: 4 microseconds.
-Trial 822: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 823: Optimal value of 23.6018 has been reached. Time taken: 4 microseconds.
-Trial 824: Optimal value of 20.4643 has been reached. Time taken: 2 microseconds.
-Trial 825: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 826: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 827: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 828: Optimal value of 16.5688 has been reached. Time taken: 4 microseconds.
-Trial 829: Optimal value of 21.7412 has been reached. Time taken: 4 microseconds.
-Trial 830: Optimal value of 25.32 has been reached. Time taken: 7 microseconds.
-Trial 831: Optimal value of 35.6324 has been reached. Time taken: 9 microseconds.
-Trial 832: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 833: Optimal value of 9.01396 has been reached. Time taken: 4 microseconds.
-Trial 834: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 835: Optimal value of 32.245 has been reached. Time taken: 9 microseconds.
-Trial 836: Optimal value of 33.2208 has been reached. Time taken: 10 microseconds.
-Trial 837: Optimal value of 16.0177 has been reached. Time taken: 5 microseconds.
-Trial 838: Optimal value of 21.2422 has been reached. Time taken: 5 microseconds.
-Trial 839: Optimal value of 16.2999 has been reached. Time taken: 5 microseconds.
-Trial 840: Optimal value of 22.3144 has been reached. Time taken: 7 microseconds.
-Trial 841: Optimal value of 27.187 has been reached. Time taken: 6 microseconds.
-Trial 842: Optimal value of 19.7082 has been reached. Time taken: 4 microseconds.
-Trial 843: Optimal value of 25.1035 has been reached. Time taken: 6 microseconds.
-Trial 844: Optimal value of 18.9278 has been reached. Time taken: 3 microseconds.
-Trial 845: Optimal value of 25.5463 has been reached. Time taken: 5 microseconds.
-Trial 846: Optimal value of 14.5292 has been reached. Time taken: 5 microseconds.
-Trial 847: Optimal value of 17.9382 has been reached. Time taken: 5 microseconds.
-Trial 848: Optimal value of 31.4352 has been reached. Time taken: 10 microseconds.
-Trial 849: Optimal value of 20.6702 has been reached. Time taken: 6 microseconds.
-Trial 850: Optimal value of 16.4511 has been reached. Time taken: 5 microseconds.
-Trial 851: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 852: Optimal value of 36.3926 has been reached. Time taken: 11 microseconds.
-Trial 853: Optimal value of 21.7412 has been reached. Time taken: 5 microseconds.
-Trial 854: Optimal value of 16.9751 has been reached. Time taken: 4 microseconds.
-Trial 855: Optimal value of 13.5469 has been reached. Time taken: 4 microseconds.
-Trial 856: Optimal value of 37.7366 has been reached. Time taken: 7 microseconds.
-Trial 857: Optimal value of 14.7737 has been reached. Time taken: 4 microseconds.
-Trial 858: Optimal value of 20.4643 has been reached. Time taken: 5 microseconds.
-Trial 859: Optimal value of 9.52127 has been reached. Time taken: 4 microseconds.
-Trial 860: Optimal value of 28.0179 has been reached. Time taken: 7 microseconds.
-Trial 861: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 862: Optimal value of 24.2495 has been reached. Time taken: 6 microseconds.
-Trial 863: Optimal value of 21.7412 has been reached. Time taken: 6 microseconds.
-Trial 864: Optimal value of 17.9382 has been reached. Time taken: 5 microseconds.
-Trial 865: Optimal value of 42.1804 has been reached. Time taken: 11 microseconds.
-Trial 866: Optimal value of 26.0841 has been reached. Time taken: 4 microseconds.
-Trial 867: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 868: Optimal value of 19.8777 has been reached. Time taken: 4 microseconds.
-Trial 869: Optimal value of 14.618 has been reached. Time taken: 5 microseconds.
-Trial 870: Optimal value of 15.0772 has been reached. Time taken: 5 microseconds.
-Trial 871: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 872: Optimal value of 21.554 has been reached. Time taken: 7 microseconds.
-Trial 873: Optimal value of 13.435 has been reached. Time taken: 4 microseconds.
-Trial 874: Optimal value of 18.1807 has been reached. Time taken: 6 microseconds.
-Trial 875: Optimal value of 25.1467 has been reached. Time taken: 6 microseconds.
-Trial 876: Optimal value of 23.1578 has been reached. Time taken: 9 microseconds.
-Trial 877: Optimal value of 8.39906 has been reached. Time taken: 6 microseconds.
-Trial 878: Optimal value of 17.8603 has been reached. Time taken: 7 microseconds.
-Trial 879: Optimal value of 12.4668 has been reached. Time taken: 7 microseconds.
-Trial 880: Optimal value of 20.4643 has been reached. Time taken: 5 microseconds.
-Trial 881: Optimal value of 21.7412 has been reached. Time taken: 5 microseconds.
-Trial 882: Optimal value of 36.2137 has been reached. Time taken: 11 microseconds.
-Trial 883: Optimal value of 15.0082 has been reached. Time taken: 378 microseconds.
-Trial 884: Optimal value of 20.1928 has been reached. Time taken: 11 microseconds.
-Trial 885: Optimal value of 18.8748 has been reached. Time taken: 8 microseconds.
-Trial 886: Optimal value of 21.7412 has been reached. Time taken: 14 microseconds.
-Trial 887: Optimal value of 19.6894 has been reached. Time taken: 12 microseconds.
-Trial 888: Optimal value of 0.318818 has been reached. Time taken: 11 microseconds.
-Trial 889: Optimal value of 13.1224 has been reached. Time taken: 11 microseconds.
-Trial 890: Optimal value of 24.2422 has been reached. Time taken: 13 microseconds.
-Trial 891: Optimal value of 15.2489 has been reached. Time taken: 10 microseconds.
-Trial 892: Optimal value of 25.0585 has been reached. Time taken: 8 microseconds.
-Trial 893: Optimal value of 31.4352 has been reached. Time taken: 11 microseconds.
-Trial 894: Optimal value of 24.1466 has been reached. Time taken: 6 microseconds.
-Trial 895: Optimal value of 17.7475 has been reached. Time taken: 4 microseconds.
-Trial 896: Optimal value of 20.4892 has been reached. Time taken: 4 microseconds.
-Trial 897: Optimal value of 24.2853 has been reached. Time taken: 12 microseconds.
-Trial 898: Optimal value of 18.6363 has been reached. Time taken: 4 microseconds.
-Trial 899: Optimal value of 14.3146 has been reached. Time taken: 6 microseconds.
-Trial 900: Optimal value of 24.3822 has been reached. Time taken: 12 microseconds.
-Trial 901: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 902: Optimal value of 35.6324 has been reached. Time taken: 12 microseconds.
-Trial 903: Optimal value of 12.3661 has been reached. Time taken: 17 microseconds.
-Trial 904: Optimal value of 12.8348 has been reached. Time taken: 4 microseconds.
-Trial 905: Optimal value of 20.4643 has been reached. Time taken: 5 microseconds.
-Trial 906: Optimal value of 17.8603 has been reached. Time taken: 4 microseconds.
-Trial 907: Optimal value of 13.6394 has been reached. Time taken: 4 microseconds.
-Trial 908: Optimal value of 13.4332 has been reached. Time taken: 4 microseconds.
-Trial 909: Optimal value of 12.0627 has been reached. Time taken: 3 microseconds.
-Trial 910: Optimal value of 21.7412 has been reached. Time taken: 6 microseconds.
-Trial 911: Optimal value of 26.3634 has been reached. Time taken: 8 microseconds.
-Trial 912: Optimal value of 18.8344 has been reached. Time taken: 5 microseconds.
-Trial 913: Optimal value of 22.3637 has been reached. Time taken: 7 microseconds.
-Trial 914: Optimal value of 29.1333 has been reached. Time taken: 8 microseconds.
-Trial 915: Optimal value of 25.0585 has been reached. Time taken: 5 microseconds.
-Trial 916: Optimal value of 30.0585 has been reached. Time taken: 7 microseconds.
-Trial 917: Optimal value of 23.5535 has been reached. Time taken: 5 microseconds.
-Trial 918: Optimal value of 23.6389 has been reached. Time taken: 7 microseconds.
-Trial 919: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 920: Optimal value of 13.6344 has been reached. Time taken: 6 microseconds.
-Trial 921: Optimal value of 23.0815 has been reached. Time taken: 5 microseconds.
-Trial 922: Optimal value of 27.4595 has been reached. Time taken: 7 microseconds.
-Trial 923: Optimal value of 12.6983 has been reached. Time taken: 5 microseconds.
-Trial 924: Optimal value of 19.1246 has been reached. Time taken: 8 microseconds.
-Trial 925: Optimal value of 25.0585 has been reached. Time taken: 15 microseconds.
-Trial 926: Optimal value of 23.0815 has been reached. Time taken: 11 microseconds.
-Trial 927: Optimal value of 24.2422 has been reached. Time taken: 14 microseconds.
-Trial 928: Optimal value of 21.4927 has been reached. Time taken: 24 microseconds.
-Trial 929: Optimal value of 17.6942 has been reached. Time taken: 5 microseconds.
-Trial 930: Optimal value of 31.451 has been reached. Time taken: 6 microseconds.
-Trial 931: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 932: Optimal value of 21.9881 has been reached. Time taken: 5 microseconds.
-Trial 933: Optimal value of 27.187 has been reached. Time taken: 5 microseconds.
-Trial 934: Optimal value of 15.2826 has been reached. Time taken: 4 microseconds.
-Trial 935: Optimal value of 17.2475 has been reached. Time taken: 4 microseconds.
-Trial 936: Optimal value of 33.2208 has been reached. Time taken: 7 microseconds.
-Trial 937: Optimal value of 18.406 has been reached. Time taken: 4 microseconds.
-Trial 938: Optimal value of 12.6983 has been reached. Time taken: 5 microseconds.
-Trial 939: Optimal value of 20.6702 has been reached. Time taken: 5 microseconds.
-Trial 940: Optimal value of 18.6825 has been reached. Time taken: 4 microseconds.
-Trial 941: Optimal value of 15.1107 has been reached. Time taken: 4 microseconds.
-Trial 942: Optimal value of 28.4237 has been reached. Time taken: 6 microseconds.
-Trial 943: Optimal value of 37.7366 has been reached. Time taken: 6 microseconds.
-Trial 944: Optimal value of 26.3634 has been reached. Time taken: 7 microseconds.
-Trial 945: Optimal value of 35.6324 has been reached. Time taken: 10 microseconds.
-Trial 946: Optimal value of 37.6275 has been reached. Time taken: 9 microseconds.
-Trial 947: Optimal value of 13.6394 has been reached. Time taken: 3 microseconds.
-Trial 948: Optimal value of 20.0976 has been reached. Time taken: 3 microseconds.
-Trial 949: Optimal value of 31.8396 has been reached. Time taken: 6 microseconds.
-Trial 950: Optimal value of 36.2137 has been reached. Time taken: 24 microseconds.
-Trial 951: Optimal value of 21.7412 has been reached. Time taken: 5 microseconds.
-Trial 952: Optimal value of 33.0881 has been reached. Time taken: 6 microseconds.
-Trial 953: Optimal value of 21.7592 has been reached. Time taken: 7 microseconds.
-Trial 954: Optimal value of 26.0841 has been reached. Time taken: 4 microseconds.
-Trial 955: Optimal value of 4.68413 has been reached. Time taken: 3 microseconds.
-Trial 956: Optimal value of 18.406 has been reached. Time taken: 4 microseconds.
-Trial 957: Optimal value of 36.2137 has been reached. Time taken: 8 microseconds.
-Trial 958: Optimal value of 26.3634 has been reached. Time taken: 7 microseconds.
-Trial 959: Optimal value of 33.7867 has been reached. Time taken: 20 microseconds.
-Trial 960: Optimal value of 26.3634 has been reached. Time taken: 13 microseconds.
-Trial 961: Optimal value of 11.9715 has been reached. Time taken: 10 microseconds.
-Trial 962: Optimal value of 21.9881 has been reached. Time taken: 10 microseconds.
-Trial 963: Optimal value of 19.2452 has been reached. Time taken: 6 microseconds.
-Trial 964: Optimal value of 12.3661 has been reached. Time taken: 6 microseconds.
-Trial 965: Optimal value of 24.2422 has been reached. Time taken: 8 microseconds.
-Trial 966: Optimal value of 25.0585 has been reached. Time taken: 7 microseconds.
-Trial 967: Optimal value of 28.1063 has been reached. Time taken: 11 microseconds.
-Trial 968: Optimal value of 36.3926 has been reached. Time taken: 15 microseconds.
-Trial 969: Optimal value of 8.47867 has been reached. Time taken: 7 microseconds.
-Trial 970: Optimal value of 13.2873 has been reached. Time taken: 6 microseconds.
-Trial 971: Optimal value of 20.6702 has been reached. Time taken: 7 microseconds.
-Trial 972: Optimal value of 9.69669 has been reached. Time taken: 3 microseconds.
-Trial 973: Optimal value of 19.463 has been reached. Time taken: 4 microseconds.
-Trial 974: Optimal value of 16.9167 has been reached. Time taken: 3 microseconds.
-Trial 975: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 976: Optimal value of 25.1467 has been reached. Time taken: 3 microseconds.
-Trial 977: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 978: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 979: Optimal value of 16.4511 has been reached. Time taken: 4 microseconds.
-Trial 980: Optimal value of 18.406 has been reached. Time taken: 4 microseconds.
-Trial 981: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 982: Optimal value of 31.4352 has been reached. Time taken: 6 microseconds.
-Trial 983: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 984: Optimal value of 13.5269 has been reached. Time taken: 4 microseconds.
-Trial 985: Optimal value of 21.7412 has been reached. Time taken: 4 microseconds.
-Trial 986: Optimal value of 26.0758 has been reached. Time taken: 6 microseconds.
-Trial 987: Optimal value of 28.4237 has been reached. Time taken: 6 microseconds.
-Trial 988: Optimal value of 20.1928 has been reached. Time taken: 4 microseconds.
-Trial 989: Optimal value of 20.6602 has been reached. Time taken: 4 microseconds.
-Trial 990: Optimal value of 33.6281 has been reached. Time taken: 6 microseconds.
-Trial 991: Optimal value of 13.5269 has been reached. Time taken: 3 microseconds.
-Trial 992: Optimal value of 17.6942 has been reached. Time taken: 3 microseconds.
-Trial 993: Optimal value of 15.295 has been reached. Time taken: 5 microseconds.
-Trial 994: Optimal value of 18.9582 has been reached. Time taken: 5 microseconds.
-Trial 995: Optimal value of 42.1804 has been reached. Time taken: 9 microseconds.
-Trial 996: Optimal value of 20.1928 has been reached. Time taken: 5 microseconds.
-Trial 997: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 998: Optimal value of 14.5292 has been reached. Time taken: 4 microseconds.
-Trial 999: Optimal value of 20.1928 has been reached. Time taken: 4 microseconds.
-Trial 1000: Optimal value of 23.0815 has been reached. Time taken: 5 microseconds.
-Trial 1001: Optimal value of 16.3933 has been reached. Time taken: 4 microseconds.
-Trial 1002: Optimal value of 16.3041 has been reached. Time taken: 8 microseconds.
-Trial 1003: Optimal value of 2.07609 has been reached. Time taken: 4 microseconds.
-Trial 1004: Optimal value of 36.2137 has been reached. Time taken: 7 microseconds.
-Trial 1005: Optimal value of 14.2555 has been reached. Time taken: 4 microseconds.
-Trial 1006: Optimal value of 12.3005 has been reached. Time taken: 3 microseconds.
-Trial 1007: Optimal value of 28.4237 has been reached. Time taken: 8 microseconds.
-Trial 1008: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 1009: Optimal value of 23.1249 has been reached. Time taken: 4 microseconds.
-Trial 1010: Optimal value of 14.2555 has been reached. Time taken: 4 microseconds.
-Trial 1011: Optimal value of 26.4107 has been reached. Time taken: 6 microseconds.
-Trial 1012: Optimal value of 13.6394 has been reached. Time taken: 4 microseconds.
-Trial 1013: Optimal value of 16.4671 has been reached. Time taken: 3 microseconds.
-Trial 1014: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1015: Optimal value of 28.1063 has been reached. Time taken: 6 microseconds.
-Trial 1016: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1017: Optimal value of 13.6394 has been reached. Time taken: 4 microseconds.
-Trial 1018: Optimal value of 36.7091 has been reached. Time taken: 9 microseconds.
-Trial 1019: Optimal value of 17.8603 has been reached. Time taken: 4 microseconds.
-Trial 1020: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1021: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1022: Optimal value of 17.4687 has been reached. Time taken: 6 microseconds.
-Trial 1023: Optimal value of 16.6725 has been reached. Time taken: 4 microseconds.
-Trial 1024: Optimal value of 33.2208 has been reached. Time taken: 10 microseconds.
-Trial 1025: Optimal value of 32.1818 has been reached. Time taken: 5 microseconds.
-Trial 1026: Optimal value of 16.6059 has been reached. Time taken: 3 microseconds.
-Trial 1027: Optimal value of 15.1807 has been reached. Time taken: 3 microseconds.
-Trial 1028: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1029: Optimal value of 23.1084 has been reached. Time taken: 5 microseconds.
-Trial 1030: Optimal value of 10.0714 has been reached. Time taken: 4 microseconds.
-Trial 1031: Optimal value of 31.9759 has been reached. Time taken: 8 microseconds.
-Trial 1032: Optimal value of 31.9759 has been reached. Time taken: 8 microseconds.
-Trial 1033: Optimal value of 20.4643 has been reached. Time taken: 7 microseconds.
-Trial 1034: Optimal value of 16.4481 has been reached. Time taken: 7 microseconds.
-Trial 1035: Optimal value of 15.2826 has been reached. Time taken: 4 microseconds.
-Trial 1036: Optimal value of 26.4107 has been reached. Time taken: 6 microseconds.
-Trial 1037: Optimal value of 20.4643 has been reached. Time taken: 7 microseconds.
-Trial 1038: Optimal value of 37.7366 has been reached. Time taken: 9 microseconds.
-Trial 1039: Optimal value of 23.0815 has been reached. Time taken: 5 microseconds.
-Trial 1040: Optimal value of 25.0585 has been reached. Time taken: 8 microseconds.
-Trial 1041: Optimal value of 14.618 has been reached. Time taken: 4 microseconds.
-Trial 1042: Optimal value of 19.6894 has been reached. Time taken: 4 microseconds.
-Trial 1043: Optimal value of 12.3661 has been reached. Time taken: 5 microseconds.
-Trial 1044: Optimal value of 15.9834 has been reached. Time taken: 5 microseconds.
-Trial 1045: Optimal value of 10.1681 has been reached. Time taken: 6 microseconds.
-Trial 1046: Optimal value of 13.2873 has been reached. Time taken: 5 microseconds.
-Trial 1047: Optimal value of 20.6602 has been reached. Time taken: 4 microseconds.
-Trial 1048: Optimal value of 21.6703 has been reached. Time taken: 3 microseconds.
-Trial 1049: Optimal value of 10.3763 has been reached. Time taken: 3 microseconds.
-Trial 1050: Optimal value of 13.7135 has been reached. Time taken: 3 microseconds.
-Trial 1051: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 1052: Optimal value of 13.6394 has been reached. Time taken: 6 microseconds.
-Trial 1053: Optimal value of 39.2042 has been reached. Time taken: 5 microseconds.
-Trial 1054: Optimal value of 18.406 has been reached. Time taken: 3 microseconds.
-Trial 1055: Optimal value of 18.2101 has been reached. Time taken: 2 microseconds.
-Trial 1056: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1057: Optimal value of 10.3763 has been reached. Time taken: 3 microseconds.
-Trial 1058: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 1059: Optimal value of 19.2452 has been reached. Time taken: 8 microseconds.
-Trial 1060: Optimal value of 32.1562 has been reached. Time taken: 25 microseconds.
-Trial 1061: Optimal value of 16.6059 has been reached. Time taken: 4 microseconds.
-Trial 1062: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 1063: Optimal value of 11.4263 has been reached. Time taken: 4 microseconds.
-Trial 1064: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1065: Optimal value of 37.7366 has been reached. Time taken: 8 microseconds.
-Trial 1066: Optimal value of 13.2873 has been reached. Time taken: 3 microseconds.
-Trial 1067: Optimal value of 23.0815 has been reached. Time taken: 5 microseconds.
-Trial 1068: Optimal value of 19.463 has been reached. Time taken: 5 microseconds.
-Trial 1069: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1070: Optimal value of 15.7626 has been reached. Time taken: 4 microseconds.
-Trial 1071: Optimal value of 20.0981 has been reached. Time taken: 3 microseconds.
-Trial 1072: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1073: Optimal value of 42.1804 has been reached. Time taken: 11 microseconds.
-Trial 1074: Optimal value of 15.6569 has been reached. Time taken: 3 microseconds.
-Trial 1075: Optimal value of 17.6942 has been reached. Time taken: 4 microseconds.
-Trial 1076: Optimal value of 7.21876 has been reached. Time taken: 3 microseconds.
-Trial 1077: Optimal value of 14.1808 has been reached. Time taken: 4 microseconds.
-Trial 1078: Optimal value of 14.3344 has been reached. Time taken: 5 microseconds.
-Trial 1079: Optimal value of 16.4481 has been reached. Time taken: 4 microseconds.
-Trial 1080: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1081: Optimal value of 37.6275 has been reached. Time taken: 10 microseconds.
-Trial 1082: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 1083: Optimal value of 18.7553 has been reached. Time taken: 3 microseconds.
-Trial 1084: Optimal value of 9.52127 has been reached. Time taken: 3 microseconds.
-Trial 1085: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 1086: Optimal value of 15.6037 has been reached. Time taken: 3 microseconds.
-Trial 1087: Optimal value of 21.7412 has been reached. Time taken: 4 microseconds.
-Trial 1088: Optimal value of 22.9554 has been reached. Time taken: 3 microseconds.
-Trial 1089: Optimal value of 16.4671 has been reached. Time taken: 3 microseconds.
-Trial 1090: Optimal value of 32.6555 has been reached. Time taken: 7 microseconds.
-Trial 1091: Optimal value of 33.6281 has been reached. Time taken: 6 microseconds.
-Trial 1092: Optimal value of 28.0179 has been reached. Time taken: 7 microseconds.
-Trial 1093: Optimal value of 16.4511 has been reached. Time taken: 7 microseconds.
-Trial 1094: Optimal value of 26.3634 has been reached. Time taken: 6 microseconds.
-Trial 1095: Optimal value of 36.2137 has been reached. Time taken: 7 microseconds.
-Trial 1096: Optimal value of 26.3634 has been reached. Time taken: 5 microseconds.
-Trial 1097: Optimal value of 23.576 has been reached. Time taken: 3 microseconds.
-Trial 1098: Optimal value of 21.0976 has been reached. Time taken: 6 microseconds.
-Trial 1099: Optimal value of 18.9582 has been reached. Time taken: 3 microseconds.
-Trial 1100: Optimal value of 12.3661 has been reached. Time taken: 4 microseconds.
-Trial 1101: Optimal value of 9.40681 has been reached. Time taken: 7 microseconds.
-Trial 1102: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1103: Optimal value of 32.245 has been reached. Time taken: 7 microseconds.
-Trial 1104: Optimal value of 20.4643 has been reached. Time taken: 2 microseconds.
-Trial 1105: Optimal value of 12.4668 has been reached. Time taken: 4 microseconds.
-Trial 1106: Optimal value of 42.1804 has been reached. Time taken: 11 microseconds.
-Trial 1107: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1108: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1109: Optimal value of 19.4511 has been reached. Time taken: 3 microseconds.
-Trial 1110: Optimal value of 16.1685 has been reached. Time taken: 3 microseconds.
-Trial 1111: Optimal value of 15.2826 has been reached. Time taken: 5 microseconds.
-Trial 1112: Optimal value of 13.025 has been reached. Time taken: 4 microseconds.
-Trial 1113: Optimal value of 15.9834 has been reached. Time taken: 4 microseconds.
-Trial 1114: Optimal value of 23.6389 has been reached. Time taken: 4 microseconds.
-Trial 1115: Optimal value of 10.1681 has been reached. Time taken: 4 microseconds.
-Trial 1116: Optimal value of 16.9751 has been reached. Time taken: 3 microseconds.
-Trial 1117: Optimal value of 37.7366 has been reached. Time taken: 5 microseconds.
-Trial 1118: Optimal value of 15.6337 has been reached. Time taken: 3 microseconds.
-Trial 1119: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1120: Optimal value of 14.7737 has been reached. Time taken: 3 microseconds.
-Trial 1121: Optimal value of 19.69 has been reached. Time taken: 4 microseconds.
-Trial 1122: Optimal value of 19.8777 has been reached. Time taken: 3 microseconds.
-Trial 1123: Optimal value of 18.896 has been reached. Time taken: 3 microseconds.
-Trial 1124: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 1125: Optimal value of 28.4237 has been reached. Time taken: 6 microseconds.
-Trial 1126: Optimal value of 39.2042 has been reached. Time taken: 5 microseconds.
-Trial 1127: Optimal value of 13.6411 has been reached. Time taken: 3 microseconds.
-Trial 1128: Optimal value of 22.3637 has been reached. Time taken: 5 microseconds.
-Trial 1129: Optimal value of 31.6608 has been reached. Time taken: 5 microseconds.
-Trial 1130: Optimal value of 29.8393 has been reached. Time taken: 6 microseconds.
-Trial 1131: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 1132: Optimal value of 26.0758 has been reached. Time taken: 4 microseconds.
-Trial 1133: Optimal value of 13.6394 has been reached. Time taken: 3 microseconds.
-Trial 1134: Optimal value of 35.6324 has been reached. Time taken: 8 microseconds.
-Trial 1135: Optimal value of 20.3302 has been reached. Time taken: 3 microseconds.
-Trial 1136: Optimal value of 37.7366 has been reached. Time taken: 4 microseconds.
-Trial 1137: Optimal value of 19.9873 has been reached. Time taken: 3 microseconds.
-Trial 1138: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1139: Optimal value of 15.7352 has been reached. Time taken: 3 microseconds.
-Trial 1140: Optimal value of 19.1246 has been reached. Time taken: 3 microseconds.
-Trial 1141: Optimal value of 23.5535 has been reached. Time taken: 4 microseconds.
-Trial 1142: Optimal value of 26.3634 has been reached. Time taken: 5 microseconds.
-Trial 1143: Optimal value of 32.1613 has been reached. Time taken: 6 microseconds.
-Trial 1144: Optimal value of 18.6825 has been reached. Time taken: 3 microseconds.
-Trial 1145: Optimal value of 25.1467 has been reached. Time taken: 4 microseconds.
-Trial 1146: Optimal value of 17.8603 has been reached. Time taken: 3 microseconds.
-Trial 1147: Optimal value of 16.3933 has been reached. Time taken: 3 microseconds.
-Trial 1148: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 1149: Optimal value of 16.5688 has been reached. Time taken: 3 microseconds.
-Trial 1150: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 1151: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 1152: Optimal value of 20.4643 has been reached. Time taken: 2 microseconds.
-Trial 1153: Optimal value of 16.0177 has been reached. Time taken: 3 microseconds.
-Trial 1154: Optimal value of 22.1395 has been reached. Time taken: 5 microseconds.
-Trial 1155: Optimal value of 5.41375 has been reached. Time taken: 2 microseconds.
-Trial 1156: Optimal value of 42.1804 has been reached. Time taken: 11317 microseconds.
-Trial 1157: Optimal value of 11.172 has been reached. Time taken: 6 microseconds.
-Trial 1158: Optimal value of 22.1395 has been reached. Time taken: 6 microseconds.
-Trial 1159: Optimal value of 15.3305 has been reached. Time taken: 4 microseconds.
-Trial 1160: Optimal value of 24.2422 has been reached. Time taken: 6 microseconds.
-Trial 1161: Optimal value of 14.9477 has been reached. Time taken: 4 microseconds.
-Trial 1162: Optimal value of 8.32341 has been reached. Time taken: 3 microseconds.
-Trial 1163: Optimal value of 32.245 has been reached. Time taken: 9 microseconds.
-Trial 1164: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 1165: Optimal value of 15.2826 has been reached. Time taken: 13 microseconds.
-Trial 1166: Optimal value of 20.4643 has been reached. Time taken: 10 microseconds.
-Trial 1167: Optimal value of 19.1806 has been reached. Time taken: 8 microseconds.
-Trial 1168: Optimal value of 32.6555 has been reached. Time taken: 9 microseconds.
-Trial 1169: Optimal value of 18.0266 has been reached. Time taken: 6 microseconds.
-Trial 1170: Optimal value of 19.5362 has been reached. Time taken: 7 microseconds.
-Trial 1171: Optimal value of 31.9759 has been reached. Time taken: 20 microseconds.
-Trial 1172: Optimal value of 16.18 has been reached. Time taken: 11 microseconds.
-Trial 1173: Optimal value of 27.4595 has been reached. Time taken: 6 microseconds.
-Trial 1174: Optimal value of 18.0768 has been reached. Time taken: 3 microseconds.
-Trial 1175: Optimal value of 17.9382 has been reached. Time taken: 4 microseconds.
-Trial 1176: Optimal value of 17.4687 has been reached. Time taken: 4 microseconds.
-Trial 1177: Optimal value of 21.7592 has been reached. Time taken: 6 microseconds.
-Trial 1178: Optimal value of 21.554 has been reached. Time taken: 7 microseconds.
-Trial 1179: Optimal value of 10.6416 has been reached. Time taken: 4 microseconds.
-Trial 1180: Optimal value of 14.9477 has been reached. Time taken: 4 microseconds.
-Trial 1181: Optimal value of 7.65187 has been reached. Time taken: 3 microseconds.
-Trial 1182: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 1183: Optimal value of 21.4927 has been reached. Time taken: 6 microseconds.
-Trial 1184: Optimal value of 14.6519 has been reached. Time taken: 4 microseconds.
-Trial 1185: Optimal value of 19.8608 has been reached. Time taken: 4 microseconds.
-Trial 1186: Optimal value of 28.1951 has been reached. Time taken: 7 microseconds.
-Trial 1187: Optimal value of 33.2208 has been reached. Time taken: 8 microseconds.
-Trial 1188: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1189: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1190: Optimal value of 31.9759 has been reached. Time taken: 7 microseconds.
-Trial 1191: Optimal value of 22.5729 has been reached. Time taken: 6 microseconds.
-Trial 1192: Optimal value of 19.9674 has been reached. Time taken: 4 microseconds.
-Trial 1193: Optimal value of 19.9674 has been reached. Time taken: 3 microseconds.
-Trial 1194: Optimal value of 28.4237 has been reached. Time taken: 6 microseconds.
-Trial 1195: Optimal value of 21.554 has been reached. Time taken: 7 microseconds.
-Trial 1196: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1197: Optimal value of 17.8603 has been reached. Time taken: 5 microseconds.
-Trial 1198: Optimal value of 19.1246 has been reached. Time taken: 6 microseconds.
-Trial 1199: Optimal value of 19.2452 has been reached. Time taken: 4 microseconds.
-Trial 1200: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1201: Optimal value of 36.2137 has been reached. Time taken: 7 microseconds.
-Trial 1202: Optimal value of 19.463 has been reached. Time taken: 4 microseconds.
-Trial 1203: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1204: Optimal value of 7.21876 has been reached. Time taken: 4 microseconds.
-Trial 1205: Optimal value of 13.6394 has been reached. Time taken: 4 microseconds.
-Trial 1206: Optimal value of 41.5591 has been reached. Time taken: 8 microseconds.
-Trial 1207: Optimal value of 19.6894 has been reached. Time taken: 4 microseconds.
-Trial 1208: Optimal value of 35.6324 has been reached. Time taken: 9 microseconds.
-Trial 1209: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1210: Optimal value of 42.1804 has been reached. Time taken: 14 microseconds.
-Trial 1211: Optimal value of 16.8272 has been reached. Time taken: 3 microseconds.
-Trial 1212: Optimal value of 15.921 has been reached. Time taken: 4 microseconds.
-Trial 1213: Optimal value of 20.4643 has been reached. Time taken: 5 microseconds.
-Trial 1214: Optimal value of 10.5285 has been reached. Time taken: 3 microseconds.
-Trial 1215: Optimal value of 18.8344 has been reached. Time taken: 3 microseconds.
-Trial 1216: Optimal value of 16.473 has been reached. Time taken: 3 microseconds.
-Trial 1217: Optimal value of 19.6501 has been reached. Time taken: 3 microseconds.
-Trial 1218: Optimal value of 10.6416 has been reached. Time taken: 3 microseconds.
-Trial 1219: Optimal value of 21.5155 has been reached. Time taken: 4 microseconds.
-Trial 1220: Optimal value of 24.2422 has been reached. Time taken: 5 microseconds.
-Trial 1221: Optimal value of 33.2208 has been reached. Time taken: 8 microseconds.
-Trial 1222: Optimal value of 28.4237 has been reached. Time taken: 6 microseconds.
-Trial 1223: Optimal value of 29.8393 has been reached. Time taken: 7 microseconds.
-Trial 1224: Optimal value of 33.7856 has been reached. Time taken: 19 microseconds.
-Trial 1225: Optimal value of 20.6702 has been reached. Time taken: 6 microseconds.
-Trial 1226: Optimal value of 23.0815 has been reached. Time taken: 6 microseconds.
-Trial 1227: Optimal value of 13.5269 has been reached. Time taken: 6 microseconds.
-Trial 1228: Optimal value of 12.4018 has been reached. Time taken: 5 microseconds.
-Trial 1229: Optimal value of 13.6394 has been reached. Time taken: 3 microseconds.
-Trial 1230: Optimal value of 36.7091 has been reached. Time taken: 9 microseconds.
-Trial 1231: Optimal value of 16.5688 has been reached. Time taken: 3 microseconds.
-Trial 1232: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 1233: Optimal value of 14.9477 has been reached. Time taken: 3 microseconds.
-Trial 1234: Optimal value of 36.7091 has been reached. Time taken: 8 microseconds.
-Trial 1235: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1236: Optimal value of 20.0976 has been reached. Time taken: 3 microseconds.
-Trial 1237: Optimal value of 13.5269 has been reached. Time taken: 3 microseconds.
-Trial 1238: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1239: Optimal value of 20.1928 has been reached. Time taken: 4 microseconds.
-Trial 1240: Optimal value of 14.6519 has been reached. Time taken: 3 microseconds.
-Trial 1241: Optimal value of 11.2567 has been reached. Time taken: 5 microseconds.
-Trial 1242: Optimal value of 25.32 has been reached. Time taken: 5 microseconds.
-Trial 1243: Optimal value of 36.7091 has been reached. Time taken: 7 microseconds.
-Trial 1244: Optimal value of 15.2826 has been reached. Time taken: 3 microseconds.
-Trial 1245: Optimal value of 27.4595 has been reached. Time taken: 5 microseconds.
-Trial 1246: Optimal value of 23.1084 has been reached. Time taken: 5 microseconds.
-Trial 1247: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1248: Optimal value of 7.21876 has been reached. Time taken: 3 microseconds.
-Trial 1249: Optimal value of 8.5656 has been reached. Time taken: 4 microseconds.
-Trial 1250: Optimal value of 22.3481 has been reached. Time taken: 6 microseconds.
-Trial 1251: Optimal value of 9.52127 has been reached. Time taken: 3 microseconds.
-Trial 1252: Optimal value of 16.8249 has been reached. Time taken: 4 microseconds.
-Trial 1253: Optimal value of 31.9759 has been reached. Time taken: 5 microseconds.
-Trial 1254: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 1255: Optimal value of 16.8929 has been reached. Time taken: 3 microseconds.
-Trial 1256: Optimal value of 23.9779 has been reached. Time taken: 3 microseconds.
-Trial 1257: Optimal value of 5.2764 has been reached. Time taken: 4 microseconds.
-Trial 1258: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 1259: Optimal value of 16.8249 has been reached. Time taken: 4 microseconds.
-Trial 1260: Optimal value of 25.0585 has been reached. Time taken: 3 microseconds.
-Trial 1261: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 1262: Optimal value of 13.5269 has been reached. Time taken: 3 microseconds.
-Trial 1263: Optimal value of 19.3563 has been reached. Time taken: 3 microseconds.
-Trial 1264: Optimal value of 29.8393 has been reached. Time taken: 6 microseconds.
-Trial 1265: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 1266: Optimal value of 38.1286 has been reached. Time taken: 5 microseconds.
-Trial 1267: Optimal value of 26.0841 has been reached. Time taken: 3 microseconds.
-Trial 1268: Optimal value of 20.6702 has been reached. Time taken: 4 microseconds.
-Trial 1269: Optimal value of 15.7352 has been reached. Time taken: 4 microseconds.
-Trial 1270: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1271: Optimal value of 18.7553 has been reached. Time taken: 3 microseconds.
-Trial 1272: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1273: Optimal value of 12.1327 has been reached. Time taken: 4 microseconds.
-Trial 1274: Optimal value of 35.6324 has been reached. Time taken: 7 microseconds.
-Trial 1275: Optimal value of 18.406 has been reached. Time taken: 3 microseconds.
-Trial 1276: Optimal value of 8.7165 has been reached. Time taken: 3 microseconds.
-Trial 1277: Optimal value of 16.5464 has been reached. Time taken: 3 microseconds.
-Trial 1278: Optimal value of 17.9382 has been reached. Time taken: 3 microseconds.
-Trial 1279: Optimal value of 26.3322 has been reached. Time taken: 4 microseconds.
-Trial 1280: Optimal value of 10.6416 has been reached. Time taken: 3 microseconds.
-Trial 1281: Optimal value of 16.0537 has been reached. Time taken: 4 microseconds.
-Trial 1282: Optimal value of 41.5591 has been reached. Time taken: 6 microseconds.
-Trial 1283: Optimal value of 8.47867 has been reached. Time taken: 3 microseconds.
-Trial 1284: Optimal value of 18.7553 has been reached. Time taken: 2 microseconds.
-Trial 1285: Optimal value of 17.8603 has been reached. Time taken: 3 microseconds.
-Trial 1286: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 1287: Optimal value of 5.41375 has been reached. Time taken: 3 microseconds.
-Trial 1288: Optimal value of 12.3661 has been reached. Time taken: 3 microseconds.
-Trial 1289: Optimal value of 2.1853 has been reached. Time taken: 3 microseconds.
-Trial 1290: Optimal value of 22.3144 has been reached. Time taken: 4 microseconds.
-Trial 1291: Optimal value of 14.618 has been reached. Time taken: 3 microseconds.
-Trial 1292: Optimal value of 21.9722 has been reached. Time taken: 3 microseconds.
-Trial 1293: Optimal value of 17.8603 has been reached. Time taken: 3 microseconds.
-Trial 1294: Optimal value of 33.7867 has been reached. Time taken: 7 microseconds.
-Trial 1295: Optimal value of 19.6826 has been reached. Time taken: 2 microseconds.
-Trial 1296: Optimal value of 13.7202 has been reached. Time taken: 5 microseconds.
-Trial 1297: Optimal value of 33.2208 has been reached. Time taken: 6 microseconds.
-Trial 1298: Optimal value of 22.3481 has been reached. Time taken: 5 microseconds.
-Trial 1299: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1300: Optimal value of 33.0881 has been reached. Time taken: 7 microseconds.
-Trial 1301: Optimal value of 18.406 has been reached. Time taken: 3 microseconds.
-Trial 1302: Optimal value of 7.21876 has been reached. Time taken: 2 microseconds.
-Trial 1303: Optimal value of 30.0585 has been reached. Time taken: 5 microseconds.
-Trial 1304: Optimal value of 19.3563 has been reached. Time taken: 2 microseconds.
-Trial 1305: Optimal value of 20.6821 has been reached. Time taken: 4 microseconds.
-Trial 1306: Optimal value of 21.1703 has been reached. Time taken: 3 microseconds.
-Trial 1307: Optimal value of 16.5688 has been reached. Time taken: 2 microseconds.
-Trial 1308: Optimal value of 16.8249 has been reached. Time taken: 4 microseconds.
-Trial 1309: Optimal value of 18.1468 has been reached. Time taken: 3 microseconds.
-Trial 1310: Optimal value of 8.32341 has been reached. Time taken: 3 microseconds.
-Trial 1311: Optimal value of 16.5688 has been reached. Time taken: 3 microseconds.
-Trial 1312: Optimal value of 28.1951 has been reached. Time taken: 6 microseconds.
-Trial 1313: Optimal value of 19.6894 has been reached. Time taken: 4 microseconds.
-Trial 1314: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1315: Optimal value of 21.2422 has been reached. Time taken: 3 microseconds.
-Trial 1316: Optimal value of 42.1804 has been reached. Time taken: 7 microseconds.
-Trial 1317: Optimal value of 5.96563 has been reached. Time taken: 3 microseconds.
-Trial 1318: Optimal value of 25.5463 has been reached. Time taken: 5 microseconds.
-Trial 1319: Optimal value of 21.4756 has been reached. Time taken: 3 microseconds.
-Trial 1320: Optimal value of 26.3634 has been reached. Time taken: 4 microseconds.
-Trial 1321: Optimal value of 33.7867 has been reached. Time taken: 6 microseconds.
-Trial 1322: Optimal value of 36.7091 has been reached. Time taken: 5 microseconds.
-Trial 1323: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1324: Optimal value of 35.6324 has been reached. Time taken: 6 microseconds.
-Trial 1325: Optimal value of 26.3634 has been reached. Time taken: 3 microseconds.
-Trial 1326: Optimal value of 9.08719 has been reached. Time taken: 3 microseconds.
-Trial 1327: Optimal value of 22.3637 has been reached. Time taken: 4 microseconds.
-Trial 1328: Optimal value of 20.0976 has been reached. Time taken: 2 microseconds.
-Trial 1329: Optimal value of 14.4825 has been reached. Time taken: 4 microseconds.
-Trial 1330: Optimal value of 21.7592 has been reached. Time taken: 4 microseconds.
-Trial 1331: Optimal value of 32.1613 has been reached. Time taken: 7 microseconds.
-Trial 1332: Optimal value of 41.5591 has been reached. Time taken: 6 microseconds.
-Trial 1333: Optimal value of 18.406 has been reached. Time taken: 2 microseconds.
-Trial 1334: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1335: Optimal value of 13.1224 has been reached. Time taken: 2 microseconds.
-Trial 1336: Optimal value of 31.6608 has been reached. Time taken: 6 microseconds.
-Trial 1337: Optimal value of 23.1578 has been reached. Time taken: 4 microseconds.
-Trial 1338: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1339: Optimal value of 4.23252 has been reached. Time taken: 3 microseconds.
-Trial 1340: Optimal value of 23.576 has been reached. Time taken: 3 microseconds.
-Trial 1341: Optimal value of 25.0585 has been reached. Time taken: 4 microseconds.
-Trial 1342: Optimal value of 25.5463 has been reached. Time taken: 4 microseconds.
-Trial 1343: Optimal value of 25.1467 has been reached. Time taken: 4 microseconds.
-Trial 1344: Optimal value of 16.473 has been reached. Time taken: 3 microseconds.
-Trial 1345: Optimal value of 14.6519 has been reached. Time taken: 3 microseconds.
-Trial 1346: Optimal value of 10.6416 has been reached. Time taken: 3 microseconds.
-Trial 1347: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 1348: Optimal value of 20.4643 has been reached. Time taken: 4 microseconds.
-Trial 1349: Optimal value of 13.276 has been reached. Time taken: 3 microseconds.
-Trial 1350: Optimal value of 19.2452 has been reached. Time taken: 3 microseconds.
-Trial 1351: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 1352: Optimal value of 33.2208 has been reached. Time taken: 7 microseconds.
-Trial 1353: Optimal value of 20.1401 has been reached. Time taken: 2 microseconds.
-Trial 1354: Optimal value of 10.6416 has been reached. Time taken: 2 microseconds.
-Trial 1355: Optimal value of 22.5729 has been reached. Time taken: 4 microseconds.
-Trial 1356: Optimal value of 33.0881 has been reached. Time taken: 4 microseconds.
-Trial 1357: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 1358: Optimal value of 33.6281 has been reached. Time taken: 4 microseconds.
-Trial 1359: Optimal value of 10.0352 has been reached. Time taken: 3 microseconds.
-Trial 1360: Optimal value of 26.3634 has been reached. Time taken: 4 microseconds.
-Trial 1361: Optimal value of 42.1804 has been reached. Time taken: 7 microseconds.
-Trial 1362: Optimal value of 23.0815 has been reached. Time taken: 3 microseconds.
-Trial 1363: Optimal value of 16.5688 has been reached. Time taken: 2 microseconds.
-Trial 1364: Optimal value of 6.82375 has been reached. Time taken: 3 microseconds.
-Trial 1365: Optimal value of 10.5285 has been reached. Time taken: 3 microseconds.
-Trial 1366: Optimal value of 21.554 has been reached. Time taken: 5 microseconds.
-Trial 1367: Optimal value of 25.0585 has been reached. Time taken: 3 microseconds.
-Trial 1368: Optimal value of 24.2495 has been reached. Time taken: 4 microseconds.
-Trial 1369: Optimal value of 10.1681 has been reached. Time taken: 3 microseconds.
-Trial 1370: Optimal value of 42.1804 has been reached. Time taken: 8 microseconds.
-Trial 1371: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 1372: Optimal value of 14.2555 has been reached. Time taken: 3 microseconds.
-Trial 1373: Optimal value of 14.1808 has been reached. Time taken: 3 microseconds.
-Trial 1374: Optimal value of 17.8197 has been reached. Time taken: 3 microseconds.
-Trial 1375: Optimal value of 36.2137 has been reached. Time taken: 7 microseconds.
-Trial 1376: Optimal value of 26.4107 has been reached. Time taken: 5 microseconds.
-Trial 1377: Optimal value of 33.7867 has been reached. Time taken: 6 microseconds.
-Trial 1378: Optimal value of 19.1246 has been reached. Time taken: 3 microseconds.
-Trial 1379: Optimal value of 19.69 has been reached. Time taken: 2 microseconds.
-Trial 1380: Optimal value of 23.9779 has been reached. Time taken: 3 microseconds.
-Trial 1381: Optimal value of 20.4643 has been reached. Time taken: 3 microseconds.
-Trial 1382: Optimal value of 17.4687 has been reached. Time taken: 3 microseconds.
-Trial 1383: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
-Trial 1384: Optimal value of 31.9759 has been reached. Time taken: 4 microseconds.
-Trial 1385: Optimal value of 12.4668 has been reached. Time taken: 3 microseconds.
-Trial 1386: Optimal value of 28.0179 has been reached. Time taken: 5 microseconds.
-Trial 1387: Optimal value of 20.6702 has been reached. Time taken: 3 microseconds.
-Trial 1388: Optimal value of 18.6825 has been reached. Time taken: 2 microseconds.
-Trial 1389: Optimal value of 9.58929 has been reached. Time taken: 2 microseconds.
-Trial 1390: Optimal value of 16.4481 has been reached. Time taken: 3 microseconds.
-Trial 1391: Optimal value of 10.5285 has been reached. Time taken: 3 microseconds.
-Trial 1392: Optimal value of 16.8929 has been reached. Time taken: 3 microseconds.
-Trial 1393: Optimal value of 24.2422 has been reached. Time taken: 3 microseconds.
-Trial 1394: Optimal value of 18.8344 has been reached. Time taken: 5 microseconds.
-Trial 1395: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1396: Optimal value of 24.2422 has been reached. Time taken: 4 microseconds.
-Trial 1397: Optimal value of 17.2475 has been reached. Time taken: 3 microseconds.
-Trial 1398: Optimal value of 16.1685 has been reached. Time taken: 6 microseconds.
-Trial 1399: Optimal value of 28.0179 has been reached. Time taken: 6 microseconds.
-Trial 1400: Optimal value of 19.7082 has been reached. Time taken: 3 microseconds.
-Trial 1401: Optimal value of 17.6942 has been reached. Time taken: 3 microseconds.
-Trial 1402: Optimal value of 20.0981 has been reached. Time taken: 3 microseconds.
-Trial 1403: Optimal value of 25.0585 has been reached. Time taken: 3 microseconds.
-Trial 1404: Optimal value of 32.6555 has been reached. Time taken: 6 microseconds.
-Trial 1405: Optimal value of 12.3661 has been reached. Time taken: 2 microseconds.
-Trial 1406: Optimal value of 7.21876 has been reached. Time taken: 2 microseconds.
-Trial 1407: Optimal value of 26.0758 has been reached. Time taken: 5 microseconds.
-Trial 1408: Optimal value of 20.3012 has been reached. Time taken: 4 microseconds.
-Trial 1409: Optimal value of 25.5463 has been reached. Time taken: 4 microseconds.
-Trial 1410: Optimal value of 18.6825 has been reached. Time taken: 2 microseconds.
-Trial 1411: Optimal value of 33.7867 has been reached. Time taken: 6 microseconds.
-Trial 1412: Optimal value of 9.77307 has been reached. Time taken: 2 microseconds.
-Trial 1413: Optimal value of 10.3059 has been reached. Time taken: 3 microseconds.
-Trial 1414: Optimal value of 23.0815 has been reached. Time taken: 2 microseconds.
-Trial 1415: Optimal value of 12.3661 has been reached. Time taken: 3 microseconds.
-Trial 1416: Optimal value of 19.463 has been reached. Time taken: 2 microseconds.
-Trial 1417: Optimal value of 15.6037 has been reached. Time taken: 3 microseconds.
-Trial 1418: Optimal value of 36.7091 has been reached. Time taken: 8 microseconds.
-Trial 1419: Optimal value of 13.9779 has been reached. Time taken: 2 microseconds.
-Trial 1420: Optimal value of 32.6555 has been reached. Time taken: 5 microseconds.
-Trial 1421: Optimal value of 42.1804 has been reached. Time taken: 7 microseconds.
-Trial 1422: Optimal value of 23.0815 has been reached. Time taken: 1005 microseconds.
-Trial 1423: Optimal value of 23.0815 has been reached. Time taken: 4 microseconds.
+Trial 1: Optimal value of 25.3264 has been reached. Time taken: 2.9 microseconds. NumIter: 5 iterations.
+Trial 2: Optimal value of 34.5952 has been reached. Time taken: 5.13 microseconds. NumIter: 8 iterations.
+Trial 3: Optimal value of 14.2469 has been reached. Time taken: 1 microseconds. NumIter: 2 iterations.
+Trial 4: Optimal value of 14.2469 has been reached. Time taken: 1 microseconds. NumIter: 2 iterations.
+Trial 5: Optimal value of 14.2469 has been reached. Time taken: 1 microseconds. NumIter: 2 iterations.
+Trial 6: Optimal value of 25.3264 has been reached. Time taken: 2.67 microseconds. NumIter: 5 iterations.
+Trial 7: Optimal value of 25.3264 has been reached. Time taken: 2.63 microseconds. NumIter: 5 iterations.
+Trial 8: Optimal value of 20.916 has been reached. Time taken: 8.93 microseconds. NumIter: 8 iterations.
+Trial 9: Optimal value of 25.2715 has been reached. Time taken: 2.63 microseconds. NumIter: 5 iterations.
+Trial 10: Optimal value of 24.9821 has been reached. Time taken: 2.82 microseconds. NumIter: 5 iterations.
+Trial 11: Optimal value of 25.2715 has been reached. Time taken: 2.8 microseconds. NumIter: 5 iterations.
+Trial 12: Optimal value of 24.9821 has been reached. Time taken: 2.59 microseconds. NumIter: 5 iterations.
+Trial 13: Optimal value of 18.6404 has been reached. Time taken: 11.37 microseconds. NumIter: 11 iterations.
+Trial 14: Optimal value of 20.916 has been reached. Time taken: 8.49 microseconds. NumIter: 8 iterations.
+Trial 15: Optimal value of 17.889 has been reached. Time taken: 1.86 microseconds. NumIter: 4 iterations.
+Trial 16: Optimal value of 12.9908 has been reached. Time taken: 1.09 microseconds. NumIter: 3 iterations.
+Trial 17: Optimal value of 12.9908 has been reached. Time taken: 1.1 microseconds. NumIter: 3 iterations.
+Trial 18: Optimal value of 12.9908 has been reached. Time taken: 1.05 microseconds. NumIter: 3 iterations.
+Trial 19: Optimal value of 12.9908 has been reached. Time taken: 1.19 microseconds. NumIter: 3 iterations.
+Trial 20: Optimal value of 12.9908 has been reached. Time taken: 1.48 microseconds. NumIter: 3 iterations.
+Trial 21: Optimal value of 20.3989 has been reached. Time taken: 1.22 microseconds. NumIter: 3 iterations.
+Trial 22: Optimal value of 20.3989 has been reached. Time taken: 1.02 microseconds. NumIter: 3 iterations.
+Trial 23: Optimal value of 20.3989 has been reached. Time taken: 1.04 microseconds. NumIter: 3 iterations.
+Trial 24: Optimal value of 18.4564 has been reached. Time taken: 1.24 microseconds. NumIter: 3 iterations.
+Trial 25: Optimal value of 18.4564 has been reached. Time taken: 1 microseconds. NumIter: 3 iterations.
+Trial 26: Optimal value of 18.4564 has been reached. Time taken: 1 microseconds. NumIter: 3 iterations.
+Trial 27: Optimal value of 19.4564 has been reached. Time taken: 1.31 microseconds. NumIter: 3 iterations.
+Trial 28: Optimal value of 19.4564 has been reached. Time taken: 0.71 microseconds. NumIter: 3 iterations.
+Trial 29: Optimal value of 19.4564 has been reached. Time taken: 0.57 microseconds. NumIter: 3 iterations.
+Trial 30: Optimal value of 20.3974 has been reached. Time taken: 0.85 microseconds. NumIter: 3 iterations.
+Trial 31: Optimal value of 20.3974 has been reached. Time taken: 0.62 microseconds. NumIter: 3 iterations.
+Trial 32: Optimal value of 20.3974 has been reached. Time taken: 0.8 microseconds. NumIter: 3 iterations.
+Trial 33: Optimal value of 20.3974 has been reached. Time taken: 0.93 microseconds. NumIter: 3 iterations.
+Trial 34: Optimal value of 20.3974 has been reached. Time taken: 0.45 microseconds. NumIter: 3 iterations.
+Trial 35: Optimal value of 20.3974 has been reached. Time taken: 0.8 microseconds. NumIter: 3 iterations.
+Trial 36: Optimal value of 15.792 has been reached. Time taken: 1.18 microseconds. NumIter: 5 iterations.
+Trial 37: Optimal value of 15.792 has been reached. Time taken: 1.1 microseconds. NumIter: 5 iterations.
+Trial 38: Optimal value of 15.792 has been reached. Time taken: 1.13 microseconds. NumIter: 5 iterations.
+Trial 39: Optimal value of 15.792 has been reached. Time taken: 1.11 microseconds. NumIter: 5 iterations.
+Trial 40: Optimal value of 17.423 has been reached. Time taken: 0.71 microseconds. NumIter: 3 iterations.
+Trial 41: Optimal value of 12.4315 has been reached. Time taken: 0.99 microseconds. NumIter: 4 iterations.
+Trial 42: Optimal value of 12.4315 has been reached. Time taken: 0.88 microseconds. NumIter: 4 iterations.
+Trial 43: Optimal value of 14.3156 has been reached. Time taken: 0.69 microseconds. NumIter: 3 iterations.
+Trial 44: Optimal value of 17.423 has been reached. Time taken: 0.67 microseconds. NumIter: 3 iterations.
+Trial 45: Optimal value of 12.4315 has been reached. Time taken: 0.94 microseconds. NumIter: 4 iterations.
+Trial 46: Optimal value of 12.4315 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 47: Optimal value of 12.4315 has been reached. Time taken: 0.95 microseconds. NumIter: 4 iterations.
+Trial 48: Optimal value of 12.4315 has been reached. Time taken: 0.97 microseconds. NumIter: 4 iterations.
+Trial 49: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 50: Optimal value of 18.629 has been reached. Time taken: 2.05 microseconds. NumIter: 5 iterations.
+Trial 51: Optimal value of 18.629 has been reached. Time taken: 1.94 microseconds. NumIter: 5 iterations.
+Trial 52: Optimal value of 18.629 has been reached. Time taken: 1.94 microseconds. NumIter: 5 iterations.
+Trial 53: Optimal value of 18.629 has been reached. Time taken: 1.97 microseconds. NumIter: 5 iterations.
+Trial 54: Optimal value of 14.0093 has been reached. Time taken: 0.57 microseconds. NumIter: 3 iterations.
+Trial 55: Optimal value of 14.0093 has been reached. Time taken: 0.72 microseconds. NumIter: 3 iterations.
+Trial 56: Optimal value of 14.0093 has been reached. Time taken: 0.76 microseconds. NumIter: 3 iterations.
+Trial 57: Optimal value of 14.0093 has been reached. Time taken: 0.68 microseconds. NumIter: 3 iterations.
+Trial 58: Optimal value of 14.0093 has been reached. Time taken: 0.7 microseconds. NumIter: 3 iterations.
+Trial 59: Optimal value of 14.0093 has been reached. Time taken: 0.73 microseconds. NumIter: 3 iterations.
+Trial 60: Optimal value of 14.0093 has been reached. Time taken: 0.72 microseconds. NumIter: 3 iterations.
+Trial 61: Optimal value of 14.0093 has been reached. Time taken: 0.69 microseconds. NumIter: 3 iterations.
+Trial 62: Optimal value of 17.423 has been reached. Time taken: 0.7 microseconds. NumIter: 3 iterations.
+Trial 63: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 64: Optimal value of 12.4315 has been reached. Time taken: 0.85 microseconds. NumIter: 4 iterations.
+Trial 65: Optimal value of 14.3156 has been reached. Time taken: 0.43 microseconds. NumIter: 3 iterations.
+Trial 66: Optimal value of 17.423 has been reached. Time taken: 0.8 microseconds. NumIter: 3 iterations.
+Trial 67: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 68: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 69: Optimal value of 12.4315 has been reached. Time taken: 0.96 microseconds. NumIter: 4 iterations.
+Trial 70: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 71: Optimal value of 12.4315 has been reached. Time taken: 0.97 microseconds. NumIter: 4 iterations.
+Trial 72: Optimal value of 17.423 has been reached. Time taken: 0.8 microseconds. NumIter: 3 iterations.
+Trial 73: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 74: Optimal value of 12.4315 has been reached. Time taken: 0.88 microseconds. NumIter: 4 iterations.
+Trial 75: Optimal value of 14.3156 has been reached. Time taken: 0.7 microseconds. NumIter: 3 iterations.
+Trial 76: Optimal value of 17.423 has been reached. Time taken: 0.73 microseconds. NumIter: 3 iterations.
+Trial 77: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 78: Optimal value of 12.4315 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 79: Optimal value of 12.4315 has been reached. Time taken: 0.89 microseconds. NumIter: 4 iterations.
+Trial 80: Optimal value of 12.4315 has been reached. Time taken: 0.96 microseconds. NumIter: 4 iterations.
+Trial 81: Optimal value of 12.4315 has been reached. Time taken: 0.99 microseconds. NumIter: 4 iterations.
+Trial 82: Optimal value of 12.4315 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 83: Optimal value of 12.4315 has been reached. Time taken: 0.98 microseconds. NumIter: 4 iterations.
+Trial 84: Optimal value of 20.0252 has been reached. Time taken: 1.03 microseconds. NumIter: 5 iterations.
+Trial 85: Optimal value of 4.81988 has been reached. Time taken: 0.5 microseconds. NumIter: 2 iterations.
+Trial 86: Optimal value of 23.3946 has been reached. Time taken: 1.56 microseconds. NumIter: 6 iterations.
+Trial 87: Optimal value of 23.3946 has been reached. Time taken: 1.62 microseconds. NumIter: 6 iterations.
+Trial 88: Optimal value of 8.92475 has been reached. Time taken: 0.74 microseconds. NumIter: 3 iterations.
+Trial 89: Optimal value of 8.92475 has been reached. Time taken: 0.61 microseconds. NumIter: 3 iterations.
+Trial 90: Optimal value of 8.92475 has been reached. Time taken: 0.43 microseconds. NumIter: 3 iterations.
+Trial 91: Optimal value of 8.92475 has been reached. Time taken: 0.72 microseconds. NumIter: 3 iterations.
+Trial 92: Optimal value of 9.92477 has been reached. Time taken: 0.23 microseconds. NumIter: 2 iterations.
+Trial 93: Optimal value of 9.92477 has been reached. Time taken: 0.19 microseconds. NumIter: 2 iterations.
+Trial 94: Optimal value of 19.4982 has been reached. Time taken: 0.98 microseconds. NumIter: 5 iterations.
+Trial 95: Optimal value of 19.4982 has been reached. Time taken: 0.99 microseconds. NumIter: 5 iterations.
+Trial 96: Optimal value of 19.4982 has been reached. Time taken: 1 microseconds. NumIter: 5 iterations.
+Trial 97: Optimal value of 11.6382 has been reached. Time taken: 0.57 microseconds. NumIter: 3 iterations.
+Trial 98: Optimal value of 11.6382 has been reached. Time taken: 0.54 microseconds. NumIter: 3 iterations.
+Trial 99: Optimal value of 11.6382 has been reached. Time taken: 0.64 microseconds. NumIter: 3 iterations.
+Trial 100: Optimal value of 11.2779 has been reached. Time taken: 0.75 microseconds. NumIter: 3 iterations.
+Trial 101: Optimal value of 7.72288 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 102: Optimal value of 7.41111 has been reached. Time taken: 0.96 microseconds. NumIter: 4 iterations.
+Trial 103: Optimal value of 7.72288 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 104: Optimal value of 11.224 has been reached. Time taken: 0.97 microseconds. NumIter: 4 iterations.
+Trial 105: Optimal value of 10.6694 has been reached. Time taken: 0.93 microseconds. NumIter: 4 iterations.
+Trial 106: Optimal value of 11.224 has been reached. Time taken: 0.99 microseconds. NumIter: 5 iterations.
+Trial 107: Optimal value of 5.91895 has been reached. Time taken: 0.69 microseconds. NumIter: 3 iterations.
+Trial 108: Optimal value of 5.91895 has been reached. Time taken: 0.47 microseconds. NumIter: 3 iterations.
+Trial 109: Optimal value of 5.91895 has been reached. Time taken: 0.78 microseconds. NumIter: 3 iterations.
+Trial 110: Optimal value of 15.7979 has been reached. Time taken: 4.1 microseconds. NumIter: 7 iterations.
+Trial 111: Optimal value of 15.7979 has been reached. Time taken: 2.02 microseconds. NumIter: 7 iterations.
+Trial 112: Optimal value of 15.7979 has been reached. Time taken: 1.81 microseconds. NumIter: 5 iterations.
+Trial 113: Optimal value of 15.7979 has been reached. Time taken: 1.89 microseconds. NumIter: 5 iterations.
+Trial 114: Optimal value of 6.6045 has been reached. Time taken: 0.77 microseconds. NumIter: 3 iterations.
+Trial 115: Optimal value of 24.4222 has been reached. Time taken: 3.88 microseconds. NumIter: 8 iterations.
+Trial 116: Optimal value of 14.0093 has been reached. Time taken: 0.72 microseconds. NumIter: 3 iterations.
+Trial 117: Optimal value of 6.6045 has been reached. Time taken: 0.71 microseconds. NumIter: 4 iterations.
+Trial 118: Optimal value of 24.4222 has been reached. Time taken: 3.16 microseconds. NumIter: 7 iterations.
+Trial 119: Optimal value of 6.6045 has been reached. Time taken: 0.78 microseconds. NumIter: 4 iterations.
+Trial 120: Optimal value of 9.79941 has been reached. Time taken: 0.75 microseconds. NumIter: 3 iterations.
+Trial 121: Optimal value of 26.1691 has been reached. Time taken: 2.03 microseconds. NumIter: 6 iterations.
+Trial 122: Optimal value of 27.2454 has been reached. Time taken: 4.01 microseconds. NumIter: 9 iterations.
+Trial 123: Optimal value of 6.6045 has been reached. Time taken: 0.77 microseconds. NumIter: 4 iterations.
+Trial 124: Optimal value of 24.4222 has been reached. Time taken: 3.16 microseconds. NumIter: 7 iterations.
+Trial 125: Optimal value of 24.4222 has been reached. Time taken: 2.29 microseconds. NumIter: 7 iterations.
+Trial 126: Optimal value of 6.6045 has been reached. Time taken: 0.52 microseconds. NumIter: 3 iterations.
+Trial 127: Optimal value of 26.1691 has been reached. Time taken: 3.97 microseconds. NumIter: 8 iterations.
+Trial 128: Optimal value of 25.6856 has been reached. Time taken: 2.85 microseconds. NumIter: 9 iterations.
+Trial 129: Optimal value of 25.6856 has been reached. Time taken: 2.79 microseconds. NumIter: 9 iterations.
+Trial 130: Optimal value of 25.6856 has been reached. Time taken: 2.72 microseconds. NumIter: 9 iterations.
+Trial 131: Optimal value of 14.6391 has been reached. Time taken: 0.43 microseconds. NumIter: 3 iterations.
+Trial 132: Optimal value of 14.639 has been reached. Time taken: 0.47 microseconds. NumIter: 3 iterations.
+Trial 133: Optimal value of 14.6391 has been reached. Time taken: 0.45 microseconds. NumIter: 3 iterations.
+Trial 134: Optimal value of 15.4266 has been reached. Time taken: 0.43 microseconds. NumIter: 3 iterations.
+Trial 135: Optimal value of 15.4266 has been reached. Time taken: 0.57 microseconds. NumIter: 3 iterations.
+Trial 136: Optimal value of 28.2193 has been reached. Time taken: 1 microseconds. NumIter: 6 iterations.
+Trial 137: Optimal value of 26.3161 has been reached. Time taken: 4.12 microseconds. NumIter: 9 iterations.
+Trial 138: Optimal value of 28.2193 has been reached. Time taken: 1.19 microseconds. NumIter: 6 iterations.
+Trial 139: Optimal value of 17.4424 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 140: Optimal value of 28.2193 has been reached. Time taken: 1.3 microseconds. NumIter: 5 iterations.
+Trial 141: Optimal value of 24.8126 has been reached. Time taken: 2.59 microseconds. NumIter: 7 iterations.
+Trial 142: Optimal value of 24.8126 has been reached. Time taken: 2.94 microseconds. NumIter: 7 iterations.
+Trial 143: Optimal value of 26.3161 has been reached. Time taken: 3.04 microseconds. NumIter: 7 iterations.
+Trial 144: Optimal value of 26.3161 has been reached. Time taken: 3.3 microseconds. NumIter: 7 iterations.
+Trial 145: Optimal value of 17.4424 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 146: Optimal value of 26.3161 has been reached. Time taken: 4.94 microseconds. NumIter: 11 iterations.
+Trial 147: Optimal value of 26.3161 has been reached. Time taken: 5.15 microseconds. NumIter: 11 iterations.
+Trial 148: Optimal value of 17.8916 has been reached. Time taken: 3.01 microseconds. NumIter: 8 iterations.
+Trial 149: Optimal value of 22.9971 has been reached. Time taken: 1 microseconds. NumIter: 5 iterations.
+Trial 150: Optimal value of 22.9971 has been reached. Time taken: 1 microseconds. NumIter: 5 iterations.
+Trial 151: Optimal value of 22.9971 has been reached. Time taken: 1.01 microseconds. NumIter: 5 iterations.
+Trial 152: Optimal value of 22.9971 has been reached. Time taken: 1.02 microseconds. NumIter: 5 iterations.
+Trial 153: Optimal value of 15.8009 has been reached. Time taken: 3.13 microseconds. NumIter: 9 iterations.
+Trial 154: Optimal value of 24.5652 has been reached. Time taken: 1.01 microseconds. NumIter: 5 iterations.
+Trial 155: Optimal value of 17.8916 has been reached. Time taken: 3.04 microseconds. NumIter: 9 iterations.
+Trial 156: Optimal value of 20.4969 has been reached. Time taken: 1.1 microseconds. NumIter: 5 iterations.
+Trial 157: Optimal value of 20.4969 has been reached. Time taken: 1 microseconds. NumIter: 5 iterations.
+Trial 158: Optimal value of 20.4969 has been reached. Time taken: 1 microseconds. NumIter: 5 iterations.
+Trial 159: Optimal value of 8.14963 has been reached. Time taken: 0.75 microseconds. NumIter: 3 iterations.
+Trial 160: Optimal value of 8.14963 has been reached. Time taken: 0.72 microseconds. NumIter: 3 iterations.
+Trial 161: Optimal value of 8.14963 has been reached. Time taken: 0.71 microseconds. NumIter: 3 iterations.
+Trial 162: Optimal value of 15.4402 has been reached. Time taken: 0.44 microseconds. NumIter: 2 iterations.
+Trial 163: Optimal value of 15.4402 has been reached. Time taken: 0.42 microseconds. NumIter: 2 iterations.
+Trial 164: Optimal value of 15.4402 has been reached. Time taken: 0.5 microseconds. NumIter: 2 iterations.
+Trial 165: Optimal value of 10.3294 has been reached. Time taken: 0.97 microseconds. NumIter: 4 iterations.
+Trial 166: Optimal value of 11.4428 has been reached. Time taken: 1.47 microseconds. NumIter: 3 iterations.
+Trial 167: Optimal value of 11.4428 has been reached. Time taken: 2.79 microseconds. NumIter: 5 iterations.
+Trial 168: Optimal value of 10.3294 has been reached. Time taken: 0.99 microseconds. NumIter: 4 iterations.
+Trial 169: Optimal value of 10.4883 has been reached. Time taken: 0.99 microseconds. NumIter: 4 iterations.
+Trial 170: Optimal value of 9.79461 has been reached. Time taken: 1.42 microseconds. NumIter: 5 iterations.
+Trial 171: Optimal value of 11.4428 has been reached. Time taken: 1.01 microseconds. NumIter: 3 iterations.
+Trial 172: Optimal value of 11.4428 has been reached. Time taken: 1.44 microseconds. NumIter: 3 iterations.
+Trial 173: Optimal value of 11.4428 has been reached. Time taken: 1.77 microseconds. NumIter: 3 iterations.
+Trial 174: Optimal value of 10.4883 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 175: Optimal value of 11.4428 has been reached. Time taken: 1.93 microseconds. NumIter: 3 iterations.
+Trial 176: Optimal value of 10.4883 has been reached. Time taken: 0.99 microseconds. NumIter: 4 iterations.
+Trial 177: Optimal value of 10.4883 has been reached. Time taken: 1 microseconds. NumIter: 4 iterations.
+Trial 178: Optimal value of 11.4428 has been reached. Time taken: 1.99 microseconds. NumIter: 3 iterations.
+Trial 179: Optimal value of 7.92625 has been reached. Time taken: 0.68 microseconds. NumIter: 3 iterations.
+Trial 180: Optimal value of 7.92625 has been reached. Time taken: 0.66 microseconds. NumIter: 3 iterations.
+Trial 181: Optimal value of 7.92625 has been reached. Time taken: 0.74 microseconds. NumIter: 3 iterations.
+Trial 182: Optimal value of 7.92625 has been reached. Time taken: 0.64 microseconds. NumIter: 3 iterations.
+Trial 183: Optimal value of 8.92626 has been reached. Time taken: 0.53 microseconds. NumIter: 2 iterations.
+Trial 184: Optimal value of 8.92626 has been reached. Time taken: 0.47 microseconds. NumIter: 2 iterations.

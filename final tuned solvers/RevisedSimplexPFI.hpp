@@ -60,7 +60,7 @@ public:
             enteringVarCandidates = findPivotColumnCandidates(pivots, n);
             if (enteringVarCandidates.size() == 0)
             {
-                printf("\nNo entering var. Optimal value of %5.3f has been reached.\n", z);
+                numberStepsLastLP = step+1;
                 return z;
             }
             sort(enteringVarCandidates.begin(), enteringVarCandidates.end(), [](pair<variable, unsigned> a, pair<variable, unsigned> b)
@@ -102,7 +102,7 @@ public:
             if(candidateIndex == enteringVarCandidates.size()){
                 //here we check if we saw all candidates for entering variables and none of them provide
                 // a diagonal entry larger than epsilon2
-                printf("\nNo entering var. Optimal value of %5.3f has been reached.\n", z);
+                numberStepsLastLP = step+1;
                 return z;
             }
             // 3. update the current basic feasible solution

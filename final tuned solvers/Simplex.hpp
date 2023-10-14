@@ -26,7 +26,7 @@ public:
 
             if (enteringVars.size() == 0)
             {
-                printf("\nNo entering var. Optimal value of %5.3f has been reached.\n", z);
+                numberStepsLastLP = step+1;
                 return z;
             }
             unsigned pivotColumn = enteringVars[0];
